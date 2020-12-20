@@ -18,6 +18,7 @@ save_file.write(blast.read())
 save_file.close()
 blast.close()
 
+#Leitura dos resultados do BLASTp
 result = open("my_blast_nsp2.xml")
 blast_records = NCBIXML.read(result)
 blast_records
