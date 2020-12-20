@@ -26,8 +26,15 @@ print("C: ",C)
 
 phb2gb = SeqIO.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/PHB2/sequence.gb","genbank")
 phb2gb
-ano = phb2gb.annotations
-ano
+
+id = phb2gb.id
+id
+anotacoes = phb2gb.annotations
+anotacoes
+organismo = phb2gb.annotations["organism"]
+organismo
+taxonomia = phb2gb.annotations["taxonomy"]
+taxonomia
 
 #Listagem de features
 for feat in phb2gb.features:
@@ -45,3 +52,8 @@ save_file = open("my_blast_phb2.xml","w")
 save_file.write(blast.read())
 save_file.close()
 blast.close()
+
+#leitura dos resultados obtidos do BLASTn
+result = open("my_blast_phb.xml")
+blast_records = NCBIXML.read(result)
+blast_records
