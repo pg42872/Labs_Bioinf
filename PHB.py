@@ -52,6 +52,7 @@ save_file.write(blast.read())
 save_file.close()
 blast.close()
 
+#leitura dos resultados obtidos do BLASTn
 result = open("my_blast_phb.xml")
 blast_records = NCBIXML.read(result)
 blast_records
