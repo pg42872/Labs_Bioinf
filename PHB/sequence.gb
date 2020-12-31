@@ -1,0 +1,594 @@
+LOCUS       NC_000017              10831 bp    DNA     linear   CON 22-NOV-2020
+DEFINITION  Homo sapiens chromosome 17, GRCh38.p13 Primary Assembly.
+ACCESSION   NC_000017 REGION: complement(49404052..49414882)
+VERSION     NC_000017.11
+DBLINK      BioProject: PRJNA168
+            Assembly: GCF_000001405.39
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 10831)
+  AUTHORS   Zody,M.C., Garber,M., Adams,D.J., Sharpe,T., Harrow,J.,
+            Lupski,J.R., Nicholson,C., Searle,S.M., Wilming,L., Young,S.K.,
+            Abouelleil,A., Allen,N.R., Bi,W., Bloom,T., Borowsky,M.L.,
+            Bugalter,B.E., Butler,J., Chang,J.L., Chen,C.K., Cook,A., Corum,B.,
+            Cuomo,C.A., de Jong,P.J., DeCaprio,D., Dewar,K., FitzGerald,M.,
+            Gilbert,J., Gibson,R., Gnerre,S., Goldstein,S., Grafham,D.V.,
+            Grocock,R., Hafez,N., Hagopian,D.S., Hart,E., Norman,C.H.,
+            Humphray,S., Jaffe,D.B., Jones,M., Kamal,M., Khodiyar,V.K.,
+            LaButti,K., Laird,G., Lehoczky,J., Liu,X., Lokyitsang,T.,
+            Loveland,J., Lui,A., Macdonald,P., Major,J.E., Matthews,L.,
+            Mauceli,E., McCarroll,S.A., Mihalev,A.H., Mudge,J., Nguyen,C.,
+            Nicol,R., O'Leary,S.B., Osoegawa,K., Schwartz,D.C., Shaw-Smith,C.,
+            Stankiewicz,P., Steward,C., Swarbreck,D., Venkataraman,V.,
+            Whittaker,C.A., Yang,X., Zimmer,A.R., Bradley,A., Hubbard,T.,
+            Birren,B.W., Rogers,J., Lander,E.S. and Nusbaum,C.
+  TITLE     DNA sequence of human chromosome 17 and analysis of rearrangement
+            in the human lineage
+  JOURNAL   Nature 440 (7087), 1045-1049 (2006)
+   PUBMED   16625196
+REFERENCE   2  (bases 1 to 10831)
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Finishing the euchromatic sequence of the human genome
+  JOURNAL   Nature 431 (7011), 931-945 (2004)
+   PUBMED   15496913
+REFERENCE   3  (bases 1 to 10831)
+  AUTHORS   Lander,E.S., Linton,L.M., Birren,B., Nusbaum,C., Zody,M.C.,
+            Baldwin,J., Devon,K., Dewar,K., Doyle,M., FitzHugh,W., Funke,R.,
+            Gage,D., Harris,K., Heaford,A., Howland,J., Kann,L., Lehoczky,J.,
+            LeVine,R., McEwan,P., McKernan,K., Meldrim,J., Mesirov,J.P.,
+            Miranda,C., Morris,W., Naylor,J., Raymond,C., Rosetti,M.,
+            Santos,R., Sheridan,A., Sougnez,C., Stange-Thomann,N.,
+            Stojanovic,N., Subramanian,A., Wyman,D., Rogers,J., Sulston,J.,
+            Ainscough,R., Beck,S., Bentley,D., Burton,J., Clee,C., Carter,N.,
+            Coulson,A., Deadman,R., Deloukas,P., Dunham,A., Dunham,I.,
+            Durbin,R., French,L., Grafham,D., Gregory,S., Hubbard,T.,
+            Humphray,S., Hunt,A., Jones,M., Lloyd,C., McMurray,A., Matthews,L.,
+            Mercer,S., Milne,S., Mullikin,J.C., Mungall,A., Plumb,R., Ross,M.,
+            Shownkeen,R., Sims,S., Waterston,R.H., Wilson,R.K., Hillier,L.W.,
+            McPherson,J.D., Marra,M.A., Mardis,E.R., Fulton,L.A.,
+            Chinwalla,A.T., Pepin,K.H., Gish,W.R., Chissoe,S.L., Wendl,M.C.,
+            Delehaunty,K.D., Miner,T.L., Delehaunty,A., Kramer,J.B., Cook,L.L.,
+            Fulton,R.S., Johnson,D.L., Minx,P.J., Clifton,S.W., Hawkins,T.,
+            Branscomb,E., Predki,P., Richardson,P., Wenning,S., Slezak,T.,
+            Doggett,N., Cheng,J.F., Olsen,A., Lucas,S., Elkin,C.,
+            Uberbacher,E., Frazier,M., Gibbs,R.A., Muzny,D.M., Scherer,S.E.,
+            Bouck,J.B., Sodergren,E.J., Worley,K.C., Rives,C.M., Gorrell,J.H.,
+            Metzker,M.L., Naylor,S.L., Kucherlapati,R.S., Nelson,D.L.,
+            Weinstock,G.M., Sakaki,Y., Fujiyama,A., Hattori,M., Yada,T.,
+            Toyoda,A., Itoh,T., Kawagoe,C., Watanabe,H., Totoki,Y., Taylor,T.,
+            Weissenbach,J., Heilig,R., Saurin,W., Artiguenave,F., Brottier,P.,
+            Bruls,T., Pelletier,E., Robert,C., Wincker,P., Smith,D.R.,
+            Doucette-Stamm,L., Rubenfield,M., Weinstock,K., Lee,H.M.,
+            Dubois,J., Rosenthal,A., Platzer,M., Nyakatura,G., Taudien,S.,
+            Rump,A., Yang,H., Yu,J., Wang,J., Huang,G., Gu,J., Hood,L.,
+            Rowen,L., Madan,A., Qin,S., Davis,R.W., Federspiel,N.A.,
+            Abola,A.P., Proctor,M.J., Myers,R.M., Schmutz,J., Dickson,M.,
+            Grimwood,J., Cox,D.R., Olson,M.V., Kaul,R., Raymond,C., Shimizu,N.,
+            Kawasaki,K., Minoshima,S., Evans,G.A., Athanasiou,M., Schultz,R.,
+            Roe,B.A., Chen,F., Pan,H., Ramser,J., Lehrach,H., Reinhardt,R.,
+            McCombie,W.R., de la Bastide,M., Dedhia,N., Blocker,H.,
+            Hornischer,K., Nordsiek,G., Agarwala,R., Aravind,L., Bailey,J.A.,
+            Bateman,A., Batzoglou,S., Birney,E., Bork,P., Brown,D.G.,
+            Burge,C.B., Cerutti,L., Chen,H.C., Church,D., Clamp,M.,
+            Copley,R.R., Doerks,T., Eddy,S.R., Eichler,E.E., Furey,T.S.,
+            Galagan,J., Gilbert,J.G., Harmon,C., Hayashizaki,Y., Haussler,D.,
+            Hermjakob,H., Hokamp,K., Jang,W., Johnson,L.S., Jones,T.A.,
+            Kasif,S., Kaspryzk,A., Kennedy,S., Kent,W.J., Kitts,P.,
+            Koonin,E.V., Korf,I., Kulp,D., Lancet,D., Lowe,T.M., McLysaght,A.,
+            Mikkelsen,T., Moran,J.V., Mulder,N., Pollara,V.J., Ponting,C.P.,
+            Schuler,G., Schultz,J., Slater,G., Smit,A.F., Stupka,E.,
+            Szustakowski,J., Thierry-Mieg,D., Thierry-Mieg,J., Wagner,L.,
+            Wallis,J., Wheeler,R., Williams,A., Wolf,Y.I., Wolfe,K.H.,
+            Yang,S.P., Yeh,R.F., Collins,F., Guyer,M.S., Peterson,J.,
+            Felsenfeld,A., Wetterstrand,K.A., Patrinos,A., Morgan,M.J., de
+            Jong,P., Catanese,J.J., Osoegawa,K., Shizuya,H., Choi,S. and
+            Chen,Y.J.
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Initial sequencing and analysis of the human genome
+  JOURNAL   Nature 409 (6822), 860-921 (2001)
+   PUBMED   11237011
+  REMARK    Erratum:[Nature 2001 Aug 2;412(6846):565]
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CM000679.2.
+            On Feb 3, 2014 this sequence version replaced NC_000017.10.
+            Assembly Name: GRCh38.p13 Primary Assembly
+            The DNA sequence is composed of genomic sequence, primarily
+            finished clones that were sequenced as part of the Human Genome
+            Project. PCR products and WGS shotgun sequence have been added
+            where necessary to fill gaps or correct errors. All such additions
+            are manually curated by GRC staff. For more information see:
+            https://genomereference.org.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Updated annotation
+            Annotation Name             :: Homo sapiens Updated Annotation
+                                           Release 109.20201120
+            Annotation Version          :: 109.20201120
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.5
+            Annotation Method           :: Best-placed RefSeq; propagated
+                                           RefSeq model
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..10831
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="17"
+     gene            1..10831
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="prohibitin; Derived by automated computational
+                     analysis using gene prediction method: BestRefSeq,Gnomon."
+                     /db_xref="GeneID:5245"
+                     /db_xref="HGNC:HGNC:8912"
+                     /db_xref="MIM:176705"
+     mRNA            join(1..48,1592..1706,3044..3205,5410..5552,5725..5748,
+                     9841..10831)
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /product="prohibitin, transcript variant 3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001281497.2"
+                     /db_xref="GeneID:5245"
+                     /db_xref="HGNC:HGNC:8912"
+                     /db_xref="MIM:176705"
+     mRNA            join(1..48,1592..1706,3044..3205,5410..5552,5725..5841,
+                     8029..8124,9679..10831)
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /product="prohibitin, transcript variant 2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_002634.4"
+                     /db_xref="Ensembl:ENST00000300408.8"
+                     /db_xref="GeneID:5245"
+                     /db_xref="HGNC:HGNC:8912"
+                     /db_xref="MIM:176705"
+     mRNA            join(1..48,550..641,1592..1706,3044..3205,5410..5552,
+                     5725..5841,8029..8124,9679..10831)
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /product="prohibitin, transcript variant 4"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001281715.2"
+                     /db_xref="GeneID:5245"
+                     /db_xref="HGNC:HGNC:8912"
+                     /db_xref="MIM:176705"
+     mRNA            join(1..143,1592..1706,3044..3205,5410..5552,5725..5841,
+                     8029..8124,9679..10831)
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /product="prohibitin, transcript variant 1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001281496.2"
+                     /db_xref="GeneID:5245"
+                     /db_xref="HGNC:HGNC:8912"
+                     /db_xref="MIM:176705"
+     mRNA            join(23..143,550..641,1592..1706,3044..3205,5410..5552,
+                     5725..5841,8029..8124,9679..10831)
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /product="prohibitin, transcript variant X1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 406 ESTs, 465 long SRA
+                     reads, 9 Proteins, and 100% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 18 samples
+                     with support for all annotated introns"
+                     /transcript_id="XM_017024763.1"
+                     /db_xref="GeneID:5245"
+                     /db_xref="HGNC:HGNC:8912"
+                     /db_xref="MIM:176705"
+     CDS             join(1619..1706,3044..3205,5410..5552,5725..5748,
+                     9841..9891)
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="isoform 2 is encoded by transcript variant 3;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="prohibitin isoform 2"
+                     /protein_id="NP_001268426.1"
+                     /db_xref="CCDS:CCDS62244.1"
+                     /db_xref="GeneID:5245"
+                     /db_xref="HGNC:HGNC:8912"
+                     /db_xref="MIM:176705"
+                     /translation="MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRG
+                     VQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQ
+                     LPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITYLPAGQSVLLQLPQ"
+     misc_feature    1622..1624
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N-acetylalanine.
+                     /evidence=ECO:0000244|PubMed:25944712; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    5430..5432
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000244|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); phosphorylation site"
+     misc_feature    5541..5543
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P67778; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     CDS             join(1619..1706,3044..3205,5410..5552,5725..5841,
+                     8029..8124,9679..9891)
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="prohibitin isoform X1"
+                     /protein_id="XP_016880252.1"
+                     /db_xref="GeneID:5245"
+                     /db_xref="HGNC:HGNC:8912"
+                     /db_xref="MIM:176705"
+                     /translation="MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRG
+                     VQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQ
+                     LPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAAT
+                     FGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDS
+                     KAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ"
+     CDS             join(1619..1706,3044..3205,5410..5552,5725..5841,
+                     8029..8124,9679..9891)
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="isoform 1 is encoded by transcript variant 2;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="prohibitin isoform 1"
+                     /protein_id="NP_002625.1"
+                     /db_xref="CCDS:CCDS11548.1"
+                     /db_xref="Ensembl:ENSP00000300408.3"
+                     /db_xref="GeneID:5245"
+                     /db_xref="HGNC:HGNC:8912"
+                     /db_xref="MIM:176705"
+                     /translation="MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRG
+                     VQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQ
+                     LPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAAT
+                     FGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDS
+                     KAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ"
+     misc_feature    1622..1624
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N-acetylalanine.
+                     /evidence=ECO:0000244|PubMed:25944712; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    5430..5432
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000244|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); phosphorylation site"
+     misc_feature    5541..5543
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P67778; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    8074..8076
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P67778; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    8122..8124
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0000244|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    9817..9819
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000244|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); phosphorylation site"
+     CDS             join(1619..1706,3044..3205,5410..5552,5725..5841,
+                     8029..8124,9679..9891)
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="isoform 1 is encoded by transcript variant 1;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="prohibitin isoform 1"
+                     /protein_id="NP_001268425.1"
+                     /db_xref="CCDS:CCDS11548.1"
+                     /db_xref="GeneID:5245"
+                     /db_xref="HGNC:HGNC:8912"
+                     /db_xref="MIM:176705"
+                     /translation="MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRG
+                     VQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQ
+                     LPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAAT
+                     FGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDS
+                     KAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ"
+     misc_feature    1622..1624
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N-acetylalanine.
+                     /evidence=ECO:0000244|PubMed:25944712; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    5430..5432
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000244|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); phosphorylation site"
+     misc_feature    5541..5543
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P67778; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    8074..8076
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P67778; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    8122..8124
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0000244|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    9817..9819
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000244|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); phosphorylation site"
+     CDS             join(1619..1706,3044..3205,5410..5552,5725..5841,
+                     8029..8124,9679..9891)
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="isoform 1 is encoded by transcript variant 4;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="prohibitin isoform 1"
+                     /protein_id="NP_001268644.1"
+                     /db_xref="CCDS:CCDS11548.1"
+                     /db_xref="GeneID:5245"
+                     /db_xref="HGNC:HGNC:8912"
+                     /db_xref="MIM:176705"
+                     /translation="MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRG
+                     VQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQ
+                     LPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAAT
+                     FGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDS
+                     KAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ"
+     misc_feature    1622..1624
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N-acetylalanine.
+                     /evidence=ECO:0000244|PubMed:25944712; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    5430..5432
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000244|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); phosphorylation site"
+     misc_feature    5541..5543
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P67778; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    8074..8076
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P67778; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    8122..8124
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0000244|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); acetylation site"
+     misc_feature    9817..9819
+                     /gene="PHB"
+                     /gene_synonym="HEL-215; HEL-S-54e; PHB1"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000244|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P35232.1); phosphorylation site"
+ORIGIN      
+        1 gcagtatgtg tggttgggga attcatgtgg aggtcagagt ggaagcaggt gagaatggag
+       61 ggggcggcaa aggctcgttt ctgggcatct ctgcagtcct cctctgctcc atgatgtgca
+      121 ctttgggcga ggagagtgcg tgcgtgagtc cgacttgtga gggaggggag aaggggctga
+      181 gcccgggacg agccaggggt tgctcagagt aagggaggtg tccatggagg cagggtgagg
+      241 aataatccag aagctattac aaatgtaaag ggccgggtgt cccagcctca gagaaggaag
+      301 atttaaatgc actggacgag atcagggtag tctcaggagt tgaggtctgg gaagtaggga
+      361 gggaggattt gagactggag cgggcaacga cggtggggcg gagcgttaga aagttacatg
+      421 ctggcgtgat ttctagttag gtcaactgtg cttatgccca ccccgcctca gccccaccct
+      481 cccagttatt ccagagctca ctgtccctgt gcagctagtt agagcctttc tcccaaatgg
+      541 gttcttcagt tatcttggcc ccaggatgtc atccagctcc tgcttccata agaagcatgt
+      601 cgttcttaat acacgatgtt gacaagcagt atggtgagga ggtaagctgt gtctgctagc
+      661 attagacctc tgggttctaa ttctggttct accacttaat aactgcaatc tcggcttctc
+      721 atgtaacctc tctgtgtgcc tctgtttcct ctgtagtaat atgcttcata gggtaattgt
+      781 gagaagtaaa taaattgctt ttattaggct acctgatata agtgttagct gttacggtta
+      841 ctttttttgt tggcatcaac atgtagcaca ttttttaagt tatttttttc aaaccataat
+      901 tgcaccaatc taacctcaca gcctcttttt gggggcctac ttgtccagga aatgagaggg
+      961 tggtttagtg tggtgctaag ttctctgtgg atttcaagcc catgcattgt tttcattatt
+     1021 gaaccaagtg tcccagacac cttactttaa atggttgaga aaaaaagaga aatcagccag
+     1081 gcatgatggc tcatgcctgt aatcccaaca cttgggaggc cgaggcaggg ggatcacttg
+     1141 agcccaggag tttgagacca cctggggcaa cgtagcaaga ccccatctct gcaaaaaatg
+     1201 aacaaaatta gccgggcatg gtggcacact tctgtggtcc cagctacttg ggaggttgag
+     1261 gtgagaagat cgcttgagcc tgggaggtcg aggcttcagt gagctgagat tgcaccactg
+     1321 cactccagcc tgggtgacag agcaagaccc tgtctccaaa aaaaaaaaaa ggaaagaaaa
+     1381 gaaactgaaa aaaaaaaaaa gcagaagaat tgatagtaca ctttccaagc tataaagcat
+     1441 tatttattag gtatccttca atggatgatt tagcactttc aggaatgggg aaataaatag
+     1501 ccaggttgaa aagtgactgt tgtgtgtcag agagggcctt ctctgaggat ttggcatcaa
+     1561 gtttgattgt attttgtttt tatcccctta ggtgtgagag ggtccagcag aaggaaacat
+     1621 ggctgccaaa gtgtttgagt ccattggcaa gtttggcctg gccttagctg ttgcaggagg
+     1681 cgtggtgaac tctgccttat ataatggtga ggcatggagg gacagtgggt cactgcactt
+     1741 tcctaggagt tttctgttgg tctgcatagc ccatgtgaca ctcttgatgg tagctgccgt
+     1801 cagtgaatgt gtttgtggcc aagagggctc acctcctgcc atttcatacc acaggactgc
+     1861 attgttatca gagcccctga cctttcagtc ataggttctc tcagagcctg tattcaaaaa
+     1921 gagcttccca gcccacttcc tagttggatg tgtccagtgg cttctgtcaa ggtgaagtga
+     1981 agccgcacca cccaaatgct gccgcacagt gtctggattt ccctggctat ctgaaatgga
+     2041 gatctcattt gttctcctct gcttgcatgt ggaataacag caaaggctgc agatctgttt
+     2101 gggtgacctt gtcctgaaca ggaacttttg ctgtgctgaa ttcgggtagt ttcagagaaa
+     2161 gtatctttga gatgcattgc ccagctttta acagtgtagg agggaggtta agctggcttt
+     2221 tcttccactt tactgtggaa gcttcctcat tggtcaagca atggatttga cctgacttta
+     2281 tctgtaggac ctcctttaat tctgacattc tgacactttc acatgctgca aagcagcaat
+     2341 agattgaccc atccggtgtg tggctggctg acaagaggag ctttactttc agagtgaaga
+     2401 tatttggacc aatgataaag ttcagagagg cagctgatta gaaaagcctg cttggcttat
+     2461 atgacacatc ttagcagtac tgtgatcctt ttggccacat ctgcaactag acagaaattg
+     2521 ccatcataaa tttctctctg tgccaagaca gctctataac cccttaaaac tttagcgaaa
+     2581 cagagctatt aggaagaaag agtaggctct tcgaaatgta ggattcccat aatgagggtg
+     2641 ctacttctgg gagcactagg ttaaattgga gcccgatgga tatgtggtaa ctgggaagac
+     2701 ctcactgagt tttagaagtt ttggtagatg attcctggaa atatgttggt gggagttcag
+     2761 ggatagaatg gtcattcaga aaatcaacag ccagttccct caaggagaaa ggatgctaag
+     2821 gaacaggtcc tattaccaat ccttggggac atgtggaaca ggaagtgact gcttagtttt
+     2881 gcagctagtt agaagtctct agagaccagg agttggggaa gacagagaga agaggggaga
+     2941 cttaataagt gaacagaaag caccagggct ctttcaaaga catgatcctt ttgtttaaag
+     3001 gatgagagga tttttatgac atgtcattgt cctttcttcc tagtggatgc tgggcacaga
+     3061 gctgtcatct ttgaccgatt ccgtggagtg caggacattg tggtagggga agggactcat
+     3121 tttctcatcc cgtgggtaca gaaaccaatt atctttgact gccgttctcg accacgtaat
+     3181 gtgccagtca tcactggtag caaaggtgag tcttgcctat ggttcaggta aagtagggag
+     3241 tgtggaagag gtgctctgtt cttctgtgtc acaggagcat ctgtgggata ccaggatcca
+     3301 aaagagtttg aactgtacat cataggaatg actagactac ttgccctgga gagcttgata
+     3361 tggaatctta gaaataccca cttatggctg ggtgcggtgg ttcatgcctg taatcccagc
+     3421 actttgggag gctgaggcag gtggatcacc tgaggtcagg agttcaagac cagcctggcc
+     3481 aatgtggtga aaccccatct ctcctaaaaa tacaaaaatt agccggtggt ggggggtgcc
+     3541 tgtaatccca gctacttgag aggctgaggc aggagaattg cttgagcctg gggggcggag
+     3601 gttgcagtga gctaagattg tgccacttca ctgcagcctg ggcaacagag tgagactctg
+     3661 tctcaaaaaa aaaaaaaaaa aaagcctgct tctaatcttc ccatctcttt ggaatttctt
+     3721 tccgtactgt tttgcagttg ttttcaggat acattatgta cctatttcta aaactattga
+     3781 taggagcttc cagagatcag ggagttgtag gtattaatac attgcccacc tctcttggtg
+     3841 cccagttcag ggctgtctca tgggcgcttg gtccatattg ttgacatctg taagcaagcc
+     3901 gtgacagtgc tttggctcca ggcaggcctg aattgtccag gggaaagtat aattctctcc
+     3961 ctggatcctt taaatggtcc aagtaatgag aagcagaaca taggatcagt ctgttaaccc
+     4021 cttatatgtg ttacacattt gacagagtgc ttttacgtct gttttctcct tcaattttcc
+     4081 ccaacatttc cgcaaggccc agaaagcaaa tgaaattgtc cccattctca tagacaggga
+     4141 aataagctca ggttggctaa ggcttagaga ggccacatca ttagtaaata gcccagatct
+     4201 ttggactgat agtctaacac cgtttccacc agacccgaac taacctctcc aaggctgact
+     4261 cctgacttgg ccacaatcac cagagcatgt aaaggcctca ccctacaatt cttagcattg
+     4321 ccctgtctat tgtcttaaaa tgttcagtgt tgcaaacttt gcatggcacc tgttagacat
+     4381 ataatctgaa ttatgtatat ctgagggcat tcaggggata ccaaaaagct gctatcactg
+     4441 aagcctctta agaaattata aactctttat gatgctctat tgggttctct gccaaggaaa
+     4501 ccaggcatac ctgcaccttg ccctctggga tcttataatc agcagatttg cttataaatt
+     4561 gtagcaaatt tggagccagg cacagtggtg cgtgtcagct actcaagagg ctgaggcagg
+     4621 agaaatgctt aagctcagga gcttgagtct agcctgggcc acatagcaag accttgtctc
+     4681 taaaaataaa aaataaaaat tgccaggcgt aatggctcac acctgtaatt ctagcatttt
+     4741 gggaggctga ggcagttgga tcacttgagc ccaggagttt gagaccagcc tgggaaatat
+     4801 ggcgaaaccc cagctctaca aaaagtacag agattagctg ggcgtggtgg tctgtgcctg
+     4861 tgtagtccca gctacttgga aggtgtaggt gggaggatca actgagccca ggaggtcaaa
+     4921 gcggctacag tgagctgtga tcttaccact gcacttcagc ctgggcaaca tgtgaccctg
+     4981 tctcaaaata cataaataaa aattgtagca aattggagta ggagaggtca tataaaagac
+     5041 cacttgtggc caggtgcggt ggctcacacc tgtaatccca gcactttggg aggctgaggc
+     5101 aggtagatca cctgaggtca ggagtttgag accagcctaa catggtgaca ccctgtctct
+     5161 actaaaaata caaaacagct gggtgtggcg gcgcgtgcct gtaatcccag ctactcagga
+     5221 ggctgaggca ggagaattgc ttgaatctgg gaggcagagg ttgtagtgag ccgagattgt
+     5281 cccattgtac tccagcctag gcaacaagag caaaaacctg tctcaaaaaa aaaaaaaaac
+     5341 aaaaaaaaaa cacttgtttt cctacagtgg tttttatttt taactccagt gtttgtcccc
+     5401 taccctaaga tttacagaat gtcaacatca cactgcgcat cctcttccgg cctgtcgcca
+     5461 gccagcttcc tcgcatcttc accagcatcg gagaggacta tgatgagcgt gtgctgccgt
+     5521 ccatcacaac tgagatcctc aagtcagtgg tggtgagtga acaggggcct ttagcctcga
+     5581 gcccagagca ccaccctggg agggtgccag gtggcaggaa gcgcttggca gtgggttggt
+     5641 tgggatgtgg ctgctagttt cctggttcct tttctgcttc ctcattaacc tgacctgccc
+     5701 ttctgctcct ccctttgaaa ccaggctcgc tttgatgctg gagaactaat cacccagaga
+     5761 gagctggtct ccaggcaggt gagcgacgac cttacagagc gagccgccac ctttgggctc
+     5821 atcctggatg acgtgtcctt ggtaagatcc ttcgggagac cgaggagggg aaggggctgc
+     5881 agttctcgtt taggtgcctg gctccatttc tgggtagacg ctattaggtc ctcccttctg
+     5941 ctttgctaga tgtgagactt gaaaacacgg aaacatgctg aggtgaggca gtctccgtgg
+     6001 gtttttcagt tgagggttct tttaccttcc ccctgccaca cacatttttc ttatgacctc
+     6061 tggttgtatc cagatagtct ctaaccacta aatgttttac cttctccaaa ctgttaccca
+     6121 gagagtgatg ccttgttaac cctgtttgac acaggcagaa actgcctggt agagaccaga
+     6181 gaacagctcg ggtagtcctt ctccctagca cagacctccc agcctgactc ctgggagctt
+     6241 cctaacactt tacagtccga agctcagtga agtaagctct gggaacccca gtgaaaggtg
+     6301 atagagtgta aacgaacggt tggattcccc caggcctggt atagggggca agggacatct
+     6361 ctgaggcgta agctatcctc ttgagacact atagcttgtg tgtttatatg acattggatg
+     6421 tcataactca gaaagcaatg caggcaggat agcgtttcag gttgaggagg gtgaggggaa
+     6481 ggggtcgtgt ttctagattc tctgggaaaa accatttgga gtgatttgtt cgggcagtga
+     6541 ggtaaagtgt ttcctgttca gttctcccgt gcattgctag ggaaaggcac tgcctccccc
+     6601 ggcatctgtg cagctgttta aacagccact tgacaacacc cagtgctaac ccctgggcac
+     6661 tgctccacct tgctccgcct gctggaagtc ctgggggctt ggggctccct ctgctggcaa
+     6721 gaggccaggc tgcagccatt ctgtgggccc ttccctcgta attaccgtta acctgaacac
+     6781 cttggctgtg agaaaacgct gagtaaaaac ctaagggaaa agttggcatt ttactagact
+     6841 ttaaccacat actccattct ggggaaatgt gggctgacca caagaaaccc tatctaaggt
+     6901 gtgagaagaa aattaggttt catggggaat ttgctgccct cagctggccc ttgtagaaat
+     6961 aaattttatt ccttaattat acatttcatt tttcatgtct caggatcaga ttttcttacc
+     7021 caaactttga ctaagaaact agaaatggat caggcgaagt acaacagctg cagttagagt
+     7081 taggaggtta aaaattctgg aagagaatga gaccaggatt tactcttcag gagaagtttg
+     7141 gagctgcttt tttaaaaagc agaggttggg agagtggagg aaatgaaaca actagaattt
+     7201 gatggcaaaa ccaatgctct tctcttgatt ctttttcaat aaaaattagg atgaataagt
+     7261 aaattgctct aggctgggca ttaggaattc tgaggtccct tcccattgtt tgtgctatct
+     7321 ttagggacag tcccgtcaga cctgacatga ttagggaagg tctatggatc atcagacttc
+     7381 taaaccctca tgccgaccaa tgactttacc tgctttctct ttcttttaaa ccgtttaaca
+     7441 gaaccattca cattgggaat accatgattt gcgttccacc gtccctcgtc ctcttcctgt
+     7501 tcagtggtgg agctgctgtg ggaagacgcg gactggttaa tccataaaca gagagcatca
+     7561 ggctcttgga tccctgggaa ccagctgcct ccctcactct cagggaccct gttttccatc
+     7621 tggccttcct tgggctttga acaaggcatc aaaggccctt ggaagagcac tagtcagtgg
+     7681 cgggggtctt agaacccaca gttctcctcc tctggggagg tggtcgattg agtagatacc
+     7741 ttctggtgcc tgtgggcccc atcaaaagcc cccggtgcca tttgctacat gaggtcactg
+     7801 tactgagagt gacagagtaa tatacaggag cagtttgggc agccagagag tctgggtgta
+     7861 aactcagttt ggatacagat acggaggtgg aagagtgttc tggcctcacg gatgcctcca
+     7921 gctgctagag ccattgctgg cctcttcttc cagcggccat ggagccctcc cagcagtgct
+     7981 gtcgaagcaa tcacactgcc tcatcttgtg ctcactctct ccccttagac acatctgacc
+     8041 ttcgggaagg agttcacaga agcggtggaa gccaaacagg tggctcagca ggaagcagag
+     8101 agggccagat ttgtggtgga aaaggtgagc cttcgaccag atggcaggag cctctctctc
+     8161 ccctttctcc ggcactcagc ttccccattt gctgggtggc ctggaaattc atcatctgtc
+     8221 atcccttctt ccgggataat cagaaggggc ttgaaggaat tgtacttctg caattggttc
+     8281 cagagtcttc aggggctagt caaggatatg tggagttatg ttcctaaatc actgaagggt
+     8341 aatttttctt ccacttctct gagatcaaaa acactctctt acaaataaaa atgtttctcc
+     8401 tggagtattt tcagcttcac tgagaagtca tttttaacca tagttacata gtgaaagctg
+     8461 acagcaaaaa agatcaaacg ttgcaccaga tgtgctttcg tcactagatt tttttctagt
+     8521 gctaaatcca tccagatgtg tcaaagaatg tgatgggaca cagtgtattt gcgtagcagc
+     8581 ctggtctttc tggtatttgc aaagacatgt tcatttattg ttgtcccctt cttcccacca
+     8641 ccagtatccc taattggtgg ggagatgggg acagcaagaa ataaaatggg aaaagaggga
+     8701 tagatttaat tttggagaat gaaaacactg tgtgggcaga gacttgtgtt gctttgtatc
+     8761 tgccataact tcagagatta taataagtct agtacagtgc ctggtgatag taggtataca
+     8821 gtaaatgttt gttgagcaaa tagacgcagg gcccagtcat ttcaaaattg tatgtaattt
+     8881 cagggaggct taatactgtc ttcttcctca cactcctgaa ggtcacacgt tgcagagagc
+     8941 tgtcttccta ttgatattgg tagggcaagc ctaggagatc tcactctggg tgcctggatt
+     9001 ctggtcagga accagcctaa ctcacaggca gctctaggaa cagtcaaaag tgcatgctgc
+     9061 tcttccttag ccatcccgag gttttttgtt tgtttgtttg tttgtttgtt tgtttgtgac
+     9121 agctctgtgg cccaggctgg agtgcaatgg catgatcata gctcactgca gccttggcct
+     9181 cctgggctca agtgatcctc ctgcctccgc ctcccaaagt gccaggatta caggcatgag
+     9241 ccaccacacc cggccctgtc ctggctttga tgaagtcctt tagacttaag gctggaggaa
+     9301 aagatgagcc ttgaggattg attccacctt tcttttgctt ctgttttcct tggccttggc
+     9361 ttctcctggc tcagagtagg gttgttaaac tagattgcaa ttaatattaa tgaggacttt
+     9421 gaaataagac aaatattcct gcagccaaca gagatgtatc cctcccgtga caaggagtga
+     9481 gcatgaaagg ataggggagg actggtgggc aatgtgctct gcttcccccc gcttcccccg
+     9541 ctagccatca ggaggaagta aactccccga gttccttcag gagcctggga aggtggcttt
+     9601 ctggtgaagg gcctttggtt gtagcctgac atgcggtgcc ctgaggtttg atctttgtct
+     9661 ccacctccat tcttttaggc tgagcaacag aaaaaggcgg ccatcatctc tgctgagggc
+     9721 gactccaagg cagctgagct gattgccaac tcactggcca ctgcagggga tggcctgatc
+     9781 gagctgcgca agctggaagc tgcagaggac atcgcgtacc agctctcacg ctctcggaac
+     9841 atcacctacc tgccagcggg gcagtccgtg ctcctccagc tgccccagtg agggcccacc
+     9901 ctgcctgcac ctccgcgggc tgactgggcc acagccccga tgattcttaa cacagccttc
+     9961 cttctgctcc caccccagaa atcactgtga aatttcatga ttggcttaaa gtgaaggaaa
+    10021 taaaggtaaa atcacttcag atctctaatt agtctatcaa atgaaactct ttcattcttc
+    10081 tcacatccat ctactttttt atccacctcc ctaccaaaaa ttgccaagtg cctatgcaaa
+    10141 ccagctttag gtcccaattc ggggcctgct ggagttccgg cctgggcacc agcatttggc
+    10201 agcacgcagg cggggcagta tgtgatggac tggggagcac aggtgtctgc ctagatccac
+    10261 gtgtggcctc cgtcctgtca ctgatggaag gtttgcggat gagggcatgt gcggctgaac
+    10321 tgagaaggca ggcctccgtc ttcccagcgg ttcctgtgca gatgctgctg aagagaggtg
+    10381 ccggggaggg gcagagagga agtggtctgt ctgttaccat aagtctgatt ctctttaact
+    10441 gtgtgaccag cggaaacagg tgtgtgtgaa ctgggcacag attgaagaat ctgcccctgt
+    10501 tgaggtgggt gggcctgact gttgcccccc agggtcctaa aacttggatg gacttgtata
+    10561 gtgagagagg aggcctggac cgagatgtga gtcctgttga agacttcctc tctacccccc
+    10621 accttggtcc ctctcagata cccagtggaa ttccaacttg aaggattgca tcctgctggg
+    10681 gctgaacatg cctgccaaag acgtgtccga cctacgttcc tggccccctc attcagagac
+    10741 tgcccttctc acgggctcta tgcctgcact gggaaggaaa caaatgtgta taaactgctg
+    10801 tcaataaatg acacccagac cttccggctc a
+//
+
