@@ -20,6 +20,12 @@ save_file.write(blast.read())
 save_file.close()
 blast.close()
 
+#Leitura dos resultados do BLASTp
+result = open("my_blast_pro.xml")
+blast_records = NCBIXML.read(result)
+blast_records
+
+
 #Abrir ficheiro SwissProt localmente
 ficheiro = open("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/Proibitina/uniprot-yourlist_M20210102A94466D2655679D1FD8953E075198DA82A5A69C.txt")
 ficheiro
