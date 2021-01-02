@@ -3,6 +3,9 @@ from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from Bio.SeqFeature import SeqFeature, FeatureLocation
 from Bio.Blast import NCBIWWW, NCBIXML
+from Bio import SwissProt
+from urllib.request import urlopen
+
 
 #Proibitina
 
@@ -16,6 +19,29 @@ save_file = open("my_blast_pro.xml","w")
 save_file.write(blast.read())
 save_file.close()
 blast.close()
+
+#Abrir ficheiro SwissProt localmente
+ficheiro = open("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/Proibitina/uniprot-yourlist_M20210102A94466D2655679D1FD8953E075198DA82A5A69C.txt")
+ficheiro
+
+record = SwissProt.read(ficheiro)
+print(record.description)
+print(record.references)
+
+for ref in record.references:
+    print("authors:", ref.authors)
+    print("title:", ref.title)
+print(record.organism_classification)
+
+
+#Abrir ficheiro SwissProt pela internet
+url = "https://www.uniprot.org/uniprot/P35232.txt"
+handle = urlopen(url)
+handle 
+
+recorde = SwissProt.read(handle)
+print(recorde.description)
+print(recorde.references)
 
 
 #LOCALIZAÇÃO SUB CELULAR
@@ -47,3 +73,7 @@ blast.close()
 #Usando o Phobius, diz que tem (ver imagens)
 
 #Usando o TMHMM, diz que está (ver imagens)
+
+
+#MODIFICAÇÕES PÓS TRADUÇÃO
+
