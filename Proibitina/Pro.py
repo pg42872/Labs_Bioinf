@@ -40,6 +40,7 @@ handle = urlopen(url)
 handle 
 
 recorde = SwissProt.read(handle)
+recorde
 print(recorde.description)
 print(recorde.references)
 

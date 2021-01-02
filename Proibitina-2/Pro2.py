@@ -35,7 +35,7 @@ print(record.organism_classification)
 
 
 #Abrir ficheiro SwissProt pela internet
-url = "https://www.uniprot.org/uniprot/P35232.txt"
+url = "https://www.uniprot.org/uniprot/Q99623.txt"
 handle = urlopen(url)
 handle 
 
