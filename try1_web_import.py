@@ -11,3 +11,8 @@ handle.close()
 
 seq_record
 seq_record.annotations
+
+
+Entrez.email = "jpsfreitas12@gmial.com"  # Always tell NCBI who you are
+handle = Entrez.efetch(db="nucleotide", id="NC_000017.11", rettype="gb", retmode="text")
+print(handle.read())
