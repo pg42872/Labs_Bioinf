@@ -94,7 +94,7 @@ result.close()
 
 #DOMINIOS TRANSMEMBRANARES
 
-#Usando o Phobius, diz que tem (ver imagens)
+#Usando o Phobius, diz que tem (ver imagens) 
 
 #Usando o TMHMM, diz que está (ver imagens)
 
