@@ -16,3 +16,8 @@ seq_record.annotations
 Entrez.email = "jpsfreitas12@gmial.com"  # Always tell NCBI who you are
 handle = Entrez.efetch(db="nucleotide", id="NC_000017.11", rettype="gb", retmode="text")
 print(handle.read())
+
+#Converter jupyter notebooks em html para poder adicionar ao site
+#Adicionar este comando diretamente no notebook que se quer converter
+
+!jupyter nbconvert --to html your_notebook_name.ipynb
