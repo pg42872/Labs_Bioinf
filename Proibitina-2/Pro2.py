@@ -47,7 +47,7 @@ save_file.close()
 blast.close()
 
 #Leitura dos resultados do BLASTp
-result = open("my_blast_pro2.xml")
+result = open("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/Proibitina-2/my_blast_pro2.xml")
 blast_records = NCBIXML.parse(result)
 blast_records
 
