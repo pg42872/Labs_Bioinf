@@ -34,6 +34,8 @@ print("C: ",C)
 phb2gb = SeqIO.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/PHB2/sequence.gb","genbank")
 phb2gb
 
+#Anotações
+
 id = phb2gb.id
 id
 anotacoes = phb2gb.annotations

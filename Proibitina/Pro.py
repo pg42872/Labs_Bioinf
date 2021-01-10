@@ -5,7 +5,7 @@ from Bio.SeqFeature import SeqFeature, FeatureLocation
 from Bio.Blast import NCBIWWW, NCBIXML
 from Bio import SwissProt
 from urllib.request import urlopen
-
+from Bio.SwissProt import KeyWList
 
 #Proibitina
 #Ficheiro NCBI local
@@ -22,12 +22,28 @@ ficheiro
 
 record = SwissProt.read(ficheiro)
 print(record.description)
+print(len(record.references))
 print(record.references)
 
 for ref in record.references:
     print("authors:", ref.authors)
     print("title:", ref.title)
     print(record.organism_classification)
+
+#Comentário sobre o complexo formada pela pro e pro2
+print(record.comments[4])
+
+#Artigo da interação da nsp2 do SARS-CoV com a proibitina
+print(record.comments[5])
+#RN   [11]
+#RP   INTERACTION WITH SARS-COV NSP2 (MICROBIAL INFECTION).
+#RX   PubMed=19640993; DOI=10.1128/jvi.00842-09;
+#RA   Cornillez-Ty C.T., Liao L., Yates J.R., Kuhn P., Buchmeier M.J.;
+#RT   "Severe acute respiratory syndrome coronavirus nonstructural protein 2
+#RT   interacts with a host protein complex involved in mitochondrial biogenesis
+#RT   and intracellular signaling.";
+#RL   J. Virol. 83:10314-10318(2009).
+
 
 #Abrir ficheiro SwissProt pela internet
 url = "https://www.uniprot.org/uniprot/P35232.txt"
