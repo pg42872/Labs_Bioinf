@@ -31,6 +31,8 @@ id = orf1agb.id
 id
 anotacoes = orf1agb.annotations
 anotacoes
+tipo = orf1agb.annotations["molecule_type"]
+tipo
 organismo = orf1agb.annotations["organism"]
 organismo
 taxonomia = orf1agb.annotations["taxonomy"]
