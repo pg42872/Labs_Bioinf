@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_90275</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_002625.1 prohibitin isoform 1 [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>272</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_90275</Iteration_query-ID>
+  <Iteration_query-def>NP_002625.1 prohibitin isoform 1 [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>272</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|EPQ08950.1|</Hit_id>
+  <Hit_def>Prohibitin [Myotis brandtii]</Hit_def>
+  <Hit_accession>EPQ08950</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.436</Hsp_bit-score>
+      <Hsp_score>1417</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>272</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_001029744.1|</Hit_id>
+  <Hit_def>prohibitin [Bos taurus] &gt;ref|NP_001103649.1| prohibitin [Canis lupus familiaris] &gt;ref|NP_001103918.1| prohibitin [Felis catus] &gt;ref|NP_001233332.1| prohibitin [Pan troglodytes] &gt;ref|NP_001253252.1| prohibitin [Macaca mulatta] &gt;ref|NP_001268425.1| prohibitin isoform 1 [Homo sapiens] &gt;ref|NP_001268644.1| prohibitin isoform 1 [Homo sapiens] &gt;ref|NP_002625.1| prohibitin isoform 1 [Homo sapiens] &gt;ref|XP_002748500.1| prohibitin [Callithrix jacchus] &gt;ref|XP_002834320.1| prohibitin [Pongo abelii] &gt;ref|XP_003131608.4| prohibitin [Sus scrofa] &gt;ref|XP_003278807.1| prohibitin [Nomascus leucogenys] &gt;ref|XP_003278808.1| prohibitin [Nomascus leucogenys] &gt;ref|XP_003466930.1| prohibitin [Cavia porcellus] &gt;ref|XP_003810096.1| prohibitin [Pan paniscus] &gt;ref|XP_003810097.1| prohibitin [Pan paniscus] &gt;ref|XP_004012839.1| prohibitin [Ovis aries] &gt;ref|XP_004764842.2| PREDICTED: prohibitin [Mustela putorius furo] &gt;ref|XP_004764843.1| PREDICTED: prohibitin [Mustela putorius furo] &gt;ref|XP_005220626.1| prohibitin isoform X1 [Bos taurus] &gt;ref|XP_005394269.1| PREDICTED: prohibitin [Chinchilla lanigera] &gt;ref|XP_005394270.1| PREDICTED: prohibitin [Chinchilla lanigera] &gt;ref|XP_005583672.1| PREDICTED: prohibitin [Macaca fascicularis] &gt;ref|XP_005668921.2| prohibitin [Sus scrofa] &gt;ref|XP_006099004.1| prohibitin isoform X2 [Myotis lucifugus] &gt;ref|XP_006774305.1| PREDICTED: prohibitin [Myotis davidii] &gt;ref|XP_006774306.1| PREDICTED: prohibitin [Myotis davidii] &gt;ref|XP_008011251.1| prohibitin [Chlorocebus sabaeus] &gt;ref|XP_008011252.1| prohibitin [Chlorocebus sabaeus] &gt;ref|XP_008062151.1| prohibitin [Carlito syrichta] &gt;ref|XP_008995647.1| prohibitin [Callithrix jacchus] &gt;ref|XP_009429905.1| prohibitin isoform X1 [Pan troglodytes] &gt;ref|XP_009429906.1| prohibitin isoform X1 [Pan troglodytes] &gt;ref|XP_010358240.2| prohibitin [Rhinopithecus roxellana] &gt;ref|XP_010358248.2| prohibitin [Rhinopithecus roxellana] &gt;ref|XP_010841065.1| PREDICTED: prohibitin [Bison bison bison] &gt;ref|XP_010841066.1| PREDICTED: prohibitin [Bison bison bison] &gt;ref|XP_010970305.1| PREDICTED: prohibitin [Camelus bactrianus] &gt;ref|XP_011723801.1| prohibitin [Macaca nemestrina] &gt;ref|XP_011723803.1| prohibitin [Macaca nemestrina] &gt;ref|XP_011787560.1| PREDICTED: prohibitin isoform X1 [Colobus angolensis palliatus] &gt;ref|XP_011815302.1| PREDICTED: prohibitin isoform X1 [Colobus angolensis palliatus] &gt;ref|XP_011815303.1| PREDICTED: prohibitin isoform X1 [Colobus angolensis palliatus] &gt;ref|XP_011815304.1| PREDICTED: prohibitin isoform X1 [Colobus angolensis palliatus] &gt;ref|XP_011901609.1| PREDICTED: prohibitin [Cercocebus atys] &gt;ref|XP_011901610.1| PREDICTED: prohibitin [Cercocebus atys] &gt;ref|XP_012041324.1| prohibitin [Ovis aries] &gt;ref|XP_012041325.1| prohibitin [Ovis aries] &gt;ref|XP_012517838.1| PREDICTED: prohibitin isoform X1 [Propithecus coquereli] &gt;ref|XP_012517846.1| PREDICTED: prohibitin isoform X2 [Propithecus coquereli] &gt;ref|XP_012517855.1| PREDICTED: prohibitin isoform X3 [Propithecus coquereli] &gt;ref|XP_012645159.1| prohibitin [Microcebus murinus] &gt;ref|XP_012645160.1| prohibitin [Microcebus murinus] &gt;ref|XP_013836451.2| prohibitin [Sus scrofa] &gt;ref|XP_014396644.1| PREDICTED: prohibitin [Myotis brandtii] &gt;ref|XP_014396645.1| PREDICTED: prohibitin [Myotis brandtii] &gt;ref|XP_014438731.1| prohibitin [Tupaia chinensis] &gt;ref|XP_014438732.1| prohibitin [Tupaia chinensis] &gt;ref|XP_014938852.1| prohibitin [Acinonyx jubatus] &gt;ref|XP_015293715.1| PREDICTED: prohibitin [Macaca fascicularis] &gt;ref|XP_015293716.1| PREDICTED: prohibitin [Macaca fascicularis] &gt;ref|XP_015426346.1| PREDICTED: prohibitin [Myotis davidii] &gt;ref|XP_016880252.1| prohibitin isoform X1 [Homo sapiens] &gt;ref|XP_017395575.1| prohibitin [Cebus imitator] &gt;ref|XP_017395576.1| prohibitin [Cebus imitator] &gt;ref|XP_017709486.1| PREDICTED: prohibitin [Rhinopithecus bieti] &gt;ref|XP_017709487.1| PREDICTED: prohibitin [Rhinopithecus bieti] &gt;ref|XP_017806035.1| prohibitin [Papio anubis] &gt;ref|XP_017806036.1| prohibitin [Papio anubis] &gt;ref|XP_017806037.1| prohibitin [Papio anubis] &gt;ref|XP_018883185.1| prohibitin [Gorilla gorilla gorilla] &gt;ref|XP_018883186.1| prohibitin [Gorilla gorilla gorilla] &gt;ref|XP_018883187.1| prohibitin [Gorilla gorilla gorilla] &gt;ref|XP_019271378.1| PREDICTED: prohibitin isoform X1 [Panthera pardus] &gt;ref|XP_019271379.1| PREDICTED: prohibitin isoform X2 [Panthera pardus] &gt;ref|XP_020026976.1| prohibitin [Castor canadensis] &gt;ref|XP_020726914.1| prohibitin [Odocoileus virginianus texanus] &gt;ref|XP_020922794.1| prohibitin [Sus scrofa] &gt;ref|XP_021560238.1| prohibitin [Neomonachus schauinslandi] &gt;ref|XP_022365318.1| prohibitin [Enhydra lutris kenyoni] &gt;ref|XP_023060180.1| prohibitin [Piliocolobus tephrosceles] &gt;ref|XP_023060181.1| prohibitin [Piliocolobus tephrosceles] &gt;ref|XP_024645698.1| prohibitin [Macaca nemestrina] &gt;ref|XP_025218829.1| prohibitin isoform X1 [Theropithecus gelada] &gt;ref|XP_025218830.1| prohibitin isoform X1 [Theropithecus gelada] &gt;ref|XP_025218831.1| prohibitin isoform X1 [Theropithecus gelada] &gt;ref|XP_025225875.1| prohibitin isoform X1 [Theropithecus gelada] &gt;ref|XP_025255427.1| prohibitin isoform X1 [Theropithecus gelada] &gt;ref|XP_025295876.1| prohibitin [Canis lupus dingo] &gt;ref|XP_026368892.1| prohibitin [Ursus arctos horribilis] &gt;ref|XP_027373263.1| prohibitin [Bos indicus x Bos taurus] &gt;ref|XP_027373264.1| prohibitin [Bos indicus x Bos taurus] &gt;ref|XP_030151868.1| prohibitin [Lynx canadensis] &gt;ref|XP_030873343.1| prohibitin [Leptonychotes weddellii] &gt;ref|XP_031325542.1| prohibitin [Camelus dromedarius] &gt;ref|XP_032019198.1| prohibitin [Hylobates moloch] &gt;ref|XP_032019199.1| prohibitin [Hylobates moloch] &gt;ref|XP_032019200.1| prohibitin [Hylobates moloch] &gt;ref|XP_032135826.1| prohibitin [Sapajus apella] &gt;ref|XP_032135827.1| prohibitin [Sapajus apella] &gt;ref|XP_032177359.1| prohibitin [Mustela erminea] &gt;ref|XP_032177360.1| prohibitin [Mustela erminea] &gt;ref|XP_032284995.1| prohibitin [Phoca vitulina] &gt;ref|XP_032284996.1| prohibitin [Phoca vitulina] &gt;ref|XP_032313653.1| prohibitin isoform X1 [Camelus ferus] &gt;ref|XP_032313654.1| prohibitin isoform X1 [Camelus ferus] &gt;ref|XP_033039290.1| prohibitin [Trachypithecus francoisi] &gt;ref|XP_033039291.1| prohibitin [Trachypithecus francoisi] &gt;ref|XP_034496492.1| prohibitin [Ailuropoda melanoleuca] &gt;ref|XP_034496493.1| prohibitin [Ailuropoda melanoleuca] &gt;ref|XP_034797390.1| prohibitin [Pan paniscus] &gt;ref|XP_034882790.1| prohibitin [Mirounga leonina] &gt;ref|XP_035950900.1| prohibitin [Halichoerus grypus] &gt;ref|XP_036125649.1| prohibitin [Molossus molossus] &gt;ref|XP_036196508.1| prohibitin [Myotis myotis] &gt;ref|XP_036196509.1| prohibitin [Myotis myotis] &gt;ref|XP_036196510.1| prohibitin [Myotis myotis] &gt;ref|XP_037849734.1| prohibitin [Chlorocebus sabaeus] &gt;ref|XP_037856752.1| prohibitin [Chlorocebus sabaeus] &gt;sp|P35232.1| RecName: Full=Prohibitin [Homo sapiens] &gt;sp|Q3T165.1| RecName: Full=Prohibitin [Bos taurus] &gt;gb|AAX42253.1| prohibitin [synthetic construct] &gt;gb|APL97885.1| prohibitin [Castor fiber] &gt;gb|KAB0367606.1| hypothetical protein FD755_020930 [Muntiacus reevesi] &gt;gb|MXQ93207.1| hypothetical protein [Bos mutus] &gt;gb|OWK15345.1| PHB [Cervus elaphus hippelaphus] &gt;emb|SJX32738.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;emb|VCX38778.1| unnamed protein product [Gulo gulo] &gt;emb|VFV47345.1| prohibitin [Lynx pardinus]</Hit_def>
+  <Hit_accession>NP_001029744</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>547.354</Hsp_bit-score>
+      <Hsp_score>1409</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>272</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_023618357.1|</Hit_id>
+  <Hit_def>prohibitin isoform X1 [Myotis lucifugus]</Hit_def>
+  <Hit_accession>XP_023618357</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.969</Hsp_bit-score>
+      <Hsp_score>1408</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>272</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_008576603.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Galeopterus variegatus]</Hit_def>
+  <Hit_accession>XP_008576603</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.584</Hsp_bit-score>
+      <Hsp_score>1407</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_016071103.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Miniopterus natalensis]</Hit_def>
+  <Hit_accession>XP_016071103</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.584</Hsp_bit-score>
+      <Hsp_score>1407</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIVFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPI+FDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_032727209.1|</Hit_id>
+  <Hit_def>prohibitin [Lontra canadensis] &gt;gb|KAB0357067.1| hypothetical protein FD754_001223 [Muntiacus muntjak]</Hit_def>
+  <Hit_accession>XP_032727209</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.584</Hsp_bit-score>
+      <Hsp_score>1407</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPVIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKP+IFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_037841219.1|</Hit_id>
+  <Hit_def>prohibitin-like [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_037841219</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.584</Hsp_bit-score>
+      <Hsp_score>1407</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNVTLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVN+TLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_013827972.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Capra hircus] &gt;ref|XP_017920403.1| PREDICTED: prohibitin [Capra hircus]</Hit_def>
+  <Hit_accession>XP_013827972</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.584</Hsp_bit-score>
+      <Hsp_score>1407</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_004859709.1|</Hit_id>
+  <Hit_def>prohibitin [Heterocephalus glaber] &gt;ref|XP_021095727.1| prohibitin [Heterocephalus glaber]</Hit_def>
+  <Hit_accession>XP_004859709</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.199</Hsp_bit-score>
+      <Hsp_score>1406</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATSGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLAT+GDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_008269544.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>XP_008269544</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.199</Hsp_bit-score>
+      <Hsp_score>1406</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDMVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|NP_032857.1|</Hit_id>
+  <Hit_def>prohibitin [Mus musculus] &gt;ref|NP_114039.1| prohibitin [Rattus norvegicus] &gt;ref|XP_003503993.1| prohibitin [Cricetulus griseus] &gt;ref|XP_004608743.1| PREDICTED: prohibitin isoform X1 [Sorex araneus] &gt;ref|XP_005075923.1| prohibitin [Mesocricetus auratus] &gt;ref|XP_006924839.1| prohibitin [Pteropus alecto] &gt;ref|XP_007642664.1| prohibitin [Cricetulus griseus] &gt;ref|XP_007642665.1| prohibitin [Cricetulus griseus] &gt;ref|XP_011380933.1| prohibitin [Pteropus vampyrus] &gt;ref|XP_011380934.1| prohibitin [Pteropus vampyrus] &gt;ref|XP_015454848.1| prohibitin [Pteropus alecto] &gt;ref|XP_016014029.1| prohibitin [Rousettus aegyptiacus] &gt;ref|XP_021067921.1| prohibitin [Mus pahari] &gt;ref|XP_021497311.1| prohibitin [Meriones unguiculatus] &gt;ref|XP_023380436.1| prohibitin [Pteropus vampyrus] &gt;ref|XP_023380437.1| prohibitin [Pteropus vampyrus] &gt;ref|XP_024897510.1| prohibitin [Pteropus alecto] &gt;ref|XP_024897511.1| prohibitin [Pteropus alecto] &gt;ref|XP_027280067.1| prohibitin [Cricetulus griseus] &gt;ref|XP_027280068.1| prohibitin [Cricetulus griseus] &gt;ref|XP_027280069.1| prohibitin [Cricetulus griseus] &gt;ref|XP_028610873.1| prohibitin [Grammomys surdaster] &gt;ref|XP_028631808.1| prohibitin [Grammomys surdaster] &gt;ref|XP_031209064.1| prohibitin [Mastomys coucha] &gt;ref|XP_032768528.1| prohibitin [Rattus rattus] &gt;ref|XP_034363170.1| prohibitin [Arvicanthis niloticus] &gt;sp|P67778.1| RecName: Full=Prohibitin; AltName: Full=B-cell receptor-associated protein 32; Short=BAP 32 [Mus musculus] &gt;sp|P67779.1| RecName: Full=Prohibitin [Rattus norvegicus] &gt;gb|KAF1598067.1| Prohibitin, partial [Eudyptes pachyrhynchus] &gt;gb|AAA63500.1| prohibitin [Rattus norvegicus] &gt;gb|AAH72518.1| Prohibitin [Rattus norvegicus] &gt;gb|AAH83354.1| Prohibitin [Mus musculus] &gt;gb|AAH89034.1| Prohibitin [Mus musculus]</Hit_def>
+  <Hit_accession>NP_032857</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.199</Hsp_bit-score>
+      <Hsp_score>1406</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_004434711.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Ceratotherium simum simum] &gt;ref|XP_007525693.1| PREDICTED: prohibitin [Erinaceus europaeus] &gt;ref|XP_008518587.1| PREDICTED: prohibitin [Equus przewalskii] &gt;ref|XP_008518589.1| PREDICTED: prohibitin [Equus przewalskii] &gt;ref|XP_014646291.1| PREDICTED: prohibitin [Ceratotherium simum simum] &gt;ref|XP_014689291.1| PREDICTED: prohibitin [Equus asinus] &gt;ref|XP_014689292.1| PREDICTED: prohibitin [Equus asinus] &gt;gb|KAF5915940.1| hypothetical protein HPG69_003013 [Diceros bicornis minor]</Hit_def>
+  <Hit_accession>XP_004434711</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.199</Hsp_bit-score>
+      <Hsp_score>1406</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_004684372.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Condylura cristata] &gt;ref|XP_012582026.1| PREDICTED: prohibitin [Condylura cristata] &gt;ref|XP_012582027.1| PREDICTED: prohibitin [Condylura cristata] &gt;ref|XP_037349301.1| prohibitin [Talpa occidentalis]</Hit_def>
+  <Hit_accession>XP_004684372</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.199</Hsp_bit-score>
+      <Hsp_score>1406</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPILFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPI+FDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_008151953.1|</Hit_id>
+  <Hit_def>prohibitin [Eptesicus fuscus] &gt;ref|XP_010618429.1| prohibitin isoform X1 [Fukomys damarensis] &gt;ref|XP_036307218.1| prohibitin [Pipistrellus kuhlii] &gt;gb|KAF6309197.1| prohibitin [Pipistrellus kuhlii] &gt;gb|KFO34946.1| Prohibitin [Fukomys damarensis]</Hit_def>
+  <Hit_accession>XP_008151953</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAK+FESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_006062024.1|</Hit_id>
+  <Hit_def>prohibitin [Bubalus bubalis] &gt;ref|XP_006062025.1| prohibitin [Bubalus bubalis] &gt;ref|XP_006062026.1| prohibitin [Bubalus bubalis]</Hit_def>
+  <Hit_accession>XP_006062024</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPTGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|KAF6299341.1|</Hit_id>
+  <Hit_def>prohibitin [Rhinolophus ferrumequinum]</Hit_def>
+  <Hit_accession>KAF6299341</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVTSQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPV SQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_024429074.1|</Hit_id>
+  <Hit_def>prohibitin [Desmodus rotundus] &gt;ref|XP_024429075.1| prohibitin [Desmodus rotundus] &gt;ref|XP_024429077.1| prohibitin [Desmodus rotundus]</Hit_def>
+  <Hit_accession>XP_024429074</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_005321751.1|</Hit_id>
+  <Hit_def>prohibitin [Ictidomys tridecemlineatus] &gt;ref|XP_013212560.1| prohibitin [Ictidomys tridecemlineatus] &gt;ref|XP_015350994.1| PREDICTED: prohibitin [Marmota marmota marmota] &gt;ref|XP_026242573.1| prohibitin [Urocitellus parryii] &gt;ref|XP_027780513.1| prohibitin [Marmota flaviventris] &gt;emb|VTJ69981.1| Hypothetical predicted protein [Marmota monax]</Hit_def>
+  <Hit_accession>XP_005321751</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRTRNVTYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSR+RN+TYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_032947371.1|</Hit_id>
+  <Hit_def>prohibitin [Rhinolophus ferrumequinum] &gt;ref|XP_032964707.1| prohibitin [Rhinolophus ferrumequinum] &gt;gb|KAF6299340.1| prohibitin [Rhinolophus ferrumequinum]</Hit_def>
+  <Hit_accession>XP_032947371</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVTSQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPV SQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KAF4020721.1|</Hit_id>
+  <Hit_def>hypothetical protein G4228_012740 [Cervus hanglu yarkandensis]</Hit_def>
+  <Hit_accession>KAF4020721</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPLITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVP+ITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_001502441.1|</Hit_id>
+  <Hit_def>prohibitin [Equus caballus]</Hit_def>
+  <Hit_accession>XP_001502441</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAIAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALA+AGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_004378019.1|</Hit_id>
+  <Hit_def>prohibitin [Trichechus manatus latirostris] &gt;ref|XP_023588548.1| prohibitin [Trichechus manatus latirostris]</Hit_def>
+  <Hit_accession>XP_004378019</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.428</Hsp_bit-score>
+      <Hsp_score>1404</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPHGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_004455468.1|</Hit_id>
+  <Hit_def>prohibitin isoform X2 [Dasypus novemcinctus] &gt;ref|XP_037666102.1| prohibitin [Choloepus didactylus]</Hit_def>
+  <Hit_accession>XP_004455468</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.428</Hsp_bit-score>
+      <Hsp_score>1404</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>dbj|BAE01600.1|</Hit_id>
+  <Hit_def>unnamed protein product [Macaca fascicularis]</Hit_def>
+  <Hit_accession>BAE01600</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.428</Hsp_bit-score>
+      <Hsp_score>1404</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVAARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSV ARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_004648921.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: prohibitin [Octodon degus]</Hit_def>
+  <Hit_accession>XP_004648921</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.428</Hsp_bit-score>
+      <Hsp_score>1404</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFECRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIF+CRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_005350680.1|</Hit_id>
+  <Hit_def>prohibitin [Microtus ochrogaster] &gt;ref|XP_026636629.1| prohibitin [Microtus ochrogaster] &gt;ref|XP_038184737.1| prohibitin [Arvicola amphibius]</Hit_def>
+  <Hit_accession>XP_005350680</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.428</Hsp_bit-score>
+      <Hsp_score>1404</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_036693695.1|</Hit_id>
+  <Hit_def>prohibitin [Balaenoptera musculus] &gt;ref|XP_036693696.1| prohibitin [Balaenoptera musculus]</Hit_def>
+  <Hit_accession>XP_036693695</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.043</Hsp_bit-score>
+      <Hsp_score>1403</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAIAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPTGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALA+AGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|AAX36882.1|</Hit_id>
+  <Hit_def>prohibitin, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAX36882</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.043</Hsp_bit-score>
+      <Hsp_score>1403</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERVATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTER ATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_017505934.1|</Hit_id>
+  <Hit_def>prohibitin isoform X1 [Manis javanica]</Hit_def>
+  <Hit_accession>XP_017505934</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.043</Hsp_bit-score>
+      <Hsp_score>1403</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPILFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLARSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPI+FDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQL+RSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_012893502.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Dipodomys ordii]</Hit_def>
+  <Hit_accession>XP_012893502</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.043</Hsp_bit-score>
+      <Hsp_score>1403</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKIFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAK+FESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_028377575.1|</Hit_id>
+  <Hit_def>prohibitin [Phyllostomus discolor] &gt;ref|XP_037005862.1| prohibitin [Artibeus jamaicensis] &gt;gb|KAF6096093.1| prohibitin [Phyllostomus discolor]</Hit_def>
+  <Hit_accession>XP_028377575</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.043</Hsp_bit-score>
+      <Hsp_score>1403</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLASAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLA+AGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_004591137.1|</Hit_id>
+  <Hit_def>prohibitin [Ochotona princeps]</Hit_def>
+  <Hit_accession>XP_004591137</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.043</Hsp_bit-score>
+      <Hsp_score>1403</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDMVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLASAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLA+AGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_036053535.1|</Hit_id>
+  <Hit_def>prohibitin [Onychomys torridus]</Hit_def>
+  <Hit_accession>XP_036053535</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.658</Hsp_bit-score>
+      <Hsp_score>1402</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLTLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_019837510.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Bos indicus] &gt;ref|XP_019837511.1| PREDICTED: prohibitin [Bos indicus]</Hit_def>
+  <Hit_accession>XP_019837510</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.658</Hsp_bit-score>
+      <Hsp_score>1402</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFXCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIF CRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_004395188.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Odobenus rosmarus divergens] &gt;ref|XP_025715163.1| prohibitin [Callorhinus ursinus] &gt;ref|XP_025715164.1| prohibitin [Callorhinus ursinus] &gt;ref|XP_027423975.1| prohibitin [Zalophus californianus] &gt;ref|XP_027949515.1| prohibitin [Eumetopias jubatus] &gt;ref|XP_027949516.1| prohibitin [Eumetopias jubatus]</Hit_def>
+  <Hit_accession>XP_004395188</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.658</Hsp_bit-score>
+      <Hsp_score>1402</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLAAAGDGLVELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLA AGDGL+ELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_003931298.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin isoform X1 [Saimiri boliviensis boliviensis] &gt;ref|XP_010340173.1| PREDICTED: prohibitin isoform X1 [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>XP_003931298</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.658</Hsp_bit-score>
+      <Hsp_score>1402</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLAAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYL AGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_006971988.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Peromyscus maniculatus bairdii] &gt;ref|XP_028724835.1| prohibitin [Peromyscus leucopus]</Hit_def>
+  <Hit_accession>XP_006971988</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.273</Hsp_bit-score>
+      <Hsp_score>1401</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLTLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIVFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPI+FDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_004282693.1|</Hit_id>
+  <Hit_def>prohibitin [Orcinus orca] &gt;ref|XP_004324054.1| prohibitin [Tursiops truncatus] &gt;ref|XP_019780479.1| prohibitin [Tursiops truncatus] &gt;ref|XP_022413775.1| prohibitin [Delphinapterus leucas] &gt;ref|XP_026950142.1| prohibitin [Lagenorhynchus obliquidens] &gt;ref|XP_026950143.1| prohibitin [Lagenorhynchus obliquidens] &gt;ref|XP_029069193.1| prohibitin [Monodon monoceros] &gt;ref|XP_029069194.1| prohibitin [Monodon monoceros] &gt;ref|XP_030695602.1| prohibitin [Globicephala melas] &gt;ref|XP_030695603.1| prohibitin [Globicephala melas] &gt;ref|XP_032473436.1| prohibitin isoform X1 [Phocoena sinus] &gt;ref|XP_032473437.1| prohibitin isoform X1 [Phocoena sinus] &gt;ref|XP_032473438.1| prohibitin isoform X1 [Phocoena sinus] &gt;ref|XP_033266652.1| prohibitin [Orcinus orca] &gt;gb|TEA40233.1| hypothetical protein DBR06_SOUSAS8210182 [Sousa chinensis] &gt;gb|TKC50572.1| hypothetical protein EI555_011505 [Monodon monoceros]</Hit_def>
+  <Hit_accession>XP_004282693</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.273</Hsp_bit-score>
+      <Hsp_score>1401</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLTTAGDGLIELRKLEAAEDIAYQLSRSRNITYLPTGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSL TAGDGLIELRKLEAAEDIAYQLSRSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_036889285.1|</Hit_id>
+  <Hit_def>prohibitin [Sturnira hondurensis]</Hit_def>
+  <Hit_accession>XP_036889285</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.273</Hsp_bit-score>
+      <Hsp_score>1401</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLASAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLA+AGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_029784190.1|</Hit_id>
+  <Hit_def>prohibitin [Suricata suricatta]</Hit_def>
+  <Hit_accession>XP_029784190</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.273</Hsp_bit-score>
+      <Hsp_score>1401</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIADSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIA+SLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_008836533.1|</Hit_id>
+  <Hit_def>prohibitin [Nannospalax galili]</Hit_def>
+  <Hit_accession>XP_008836533</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.888</Hsp_bit-score>
+      <Hsp_score>1400</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_004455467.1|</Hit_id>
+  <Hit_def>prohibitin isoform X1 [Dasypus novemcinctus]</Hit_def>
+  <Hit_accession>XP_004455467</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.888</Hsp_bit-score>
+      <Hsp_score>1400</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_007940131.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin isoform X1 [Orycteropus afer afer]</Hit_def>
+  <Hit_accession>XP_007940131</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.502</Hsp_bit-score>
+      <Hsp_score>1399</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAIAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPHGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALA+AGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_007128590.1|</Hit_id>
+  <Hit_def>prohibitin [Physeter catodon] &gt;ref|XP_007128591.1| prohibitin [Physeter catodon]</Hit_def>
+  <Hit_accession>XP_007128590</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.502</Hsp_bit-score>
+      <Hsp_score>1399</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIADSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPTGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIA+SLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>dbj|BAE29988.1|</Hit_id>
+  <Hit_def>unnamed protein product [Mus musculus] &gt;dbj|BAE30089.1| unnamed protein product [Mus musculus]</Hit_def>
+  <Hit_accession>BAE29988</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.117</Hsp_bit-score>
+      <Hsp_score>1398</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSWNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRS NITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_010592651.1|</Hit_id>
+  <Hit_def>prohibitin isoform X2 [Loxodonta africana]</Hit_def>
+  <Hit_accession>XP_010592651</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.117</Hsp_bit-score>
+      <Hsp_score>1398</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVIGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLARSRNITYLPHGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIV+GEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQL+RSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_036735658.1|</Hit_id>
+  <Hit_def>prohibitin isoform X1 [Manis pentadactyla]</Hit_def>
+  <Hit_accession>XP_036735658</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.117</Hsp_bit-score>
+      <Hsp_score>1398</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPILFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLARSRNITYLPAGHSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPI+FDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQL+RSRNITYLPAG SVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_012658608.1|</Hit_id>
+  <Hit_def>prohibitin [Otolemur garnettii] &gt;ref|XP_012658609.1| prohibitin [Otolemur garnettii]</Hit_def>
+  <Hit_accession>XP_012658608</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.117</Hsp_bit-score>
+      <Hsp_score>1398</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLXHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAFQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSL HLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIA+QLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_006889381.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Elephantulus edwardii]</Hit_def>
+  <Hit_accession>XP_006889381</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.732</Hsp_bit-score>
+      <Hsp_score>1397</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAIAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPILFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPQGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALA+AGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPI+FDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_028623611.1|</Hit_id>
+  <Hit_def>prohibitin-like isoform X1 [Grammomys surdaster]</Hit_def>
+  <Hit_accession>XP_028623611</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.732</Hsp_bit-score>
+      <Hsp_score>1397</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLFESIGKFGLALAVAGGVVNSALYSVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAK+FESIGKFGLALAVAGGVVNSALY+VDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|XP_007176473.1|</Hit_id>
+  <Hit_def>prohibitin [Balaenoptera acutorostrata scammoni] &gt;ref|XP_007176474.1| prohibitin [Balaenoptera acutorostrata scammoni]</Hit_def>
+  <Hit_accession>XP_007176473</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.347</Hsp_bit-score>
+      <Hsp_score>1396</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKHFTEAVKAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPTGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGK FTEAV+AKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|XP_028931997.1|</Hit_id>
+  <Hit_def>prohibitin [Ornithorhynchus anatinus]</Hit_def>
+  <Hit_accession>XP_028931997</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.347</Hsp_bit-score>
+      <Hsp_score>1396</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLFEAVGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVANQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAK+FE++GKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVA+QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|XP_003414701.2|</Hit_id>
+  <Hit_def>prohibitin isoform X1 [Loxodonta africana]</Hit_def>
+  <Hit_accession>XP_003414701</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.347</Hsp_bit-score>
+      <Hsp_score>1396</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVIGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLARSRNITYLPHGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIV+GEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQL+RSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gb|EDL15989.1|</Hit_id>
+  <Hit_def>mCG8461, isoform CRA_c [Mus musculus]</Hit_def>
+  <Hit_accession>EDL15989</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.962</Hsp_bit-score>
+      <Hsp_score>1395</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEK--AEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKVSAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEK  AEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|XP_021031733.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: prohibitin [Mus caroli]</Hit_def>
+  <Hit_accession>XP_021031733</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.576</Hsp_bit-score>
+      <Hsp_score>1394</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIA-YQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIATYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIA YQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|XP_024601392.1|</Hit_id>
+  <Hit_def>prohibitin [Neophocaena asiaeorientalis asiaeorientalis] &gt;ref|XP_024601401.1| prohibitin [Neophocaena asiaeorientalis asiaeorientalis] &gt;ref|XP_024601410.1| prohibitin [Neophocaena asiaeorientalis asiaeorientalis]</Hit_def>
+  <Hit_accession>XP_024601392</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.191</Hsp_bit-score>
+      <Hsp_score>1393</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKVFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLTTAGDGLIELRKLEAAEDIAYQLSRSRNITYLPTGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGK FTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSL TAGDGLIELRKLEAAEDIAYQLSRSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|XP_027729106.1|</Hit_id>
+  <Hit_def>prohibitin [Vombatus ursinus]</Hit_def>
+  <Hit_accession>XP_027729106</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.806</Hsp_bit-score>
+      <Hsp_score>1392</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLFEAVGKFGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVANQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAK+FE++GKFGL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVA+QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|XP_006832549.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin isoform X1 [Chrysochloris asiatica] &gt;ref|XP_006832550.1| PREDICTED: prohibitin isoform X2 [Chrysochloris asiatica]</Hit_def>
+  <Hit_accession>XP_006832549</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.421</Hsp_bit-score>
+      <Hsp_score>1391</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAIAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLTQGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALA+AGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYL  GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|XP_025255863.1|</Hit_id>
+  <Hit_def>prohibitin-like isoform X1 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_025255863</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.421</Hsp_bit-score>
+      <Hsp_score>1391</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSQPCNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLAAAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRS+P NVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLA AGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gb|ERE69296.1|</Hit_id>
+  <Hit_def>zinc finger protein [Cricetulus griseus]</Hit_def>
+  <Hit_accession>ERE69296</Hit_accession>
+  <Hit_len>896</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.036</Hsp_bit-score>
+      <Hsp_score>1390</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gb|KAF6309195.1|</Hit_id>
+  <Hit_def>prohibitin [Pipistrellus kuhlii]</Hit_def>
+  <Hit_accession>KAF6309195</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.88</Hsp_bit-score>
+      <Hsp_score>1387</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSL------THLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLPPLSLQTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAK+FESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSL      THLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|XP_031821938.1|</Hit_id>
+  <Hit_def>prohibitin [Sarcophilus harrisii] &gt;ref|XP_031821939.1| prohibitin [Sarcophilus harrisii] &gt;ref|XP_036623441.1| prohibitin [Trichosurus vulpecula]</Hit_def>
+  <Hit_accession>XP_031821938</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.88</Hsp_bit-score>
+      <Hsp_score>1387</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLFEAVGKFGLGLAVVGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVANQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAK+FE++GKFGL LAV GGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVA+QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|XP_010383364.2|</Hit_id>
+  <Hit_def>prohibitin-like isoform X1 [Rhinopithecus roxellana]</Hit_def>
+  <Hit_accession>XP_010383364</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.88</Hsp_bit-score>
+      <Hsp_score>1387</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLLRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEPAEDIAYQLSHSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQL RIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLE AEDIAYQLS SRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|XP_020853319.1|</Hit_id>
+  <Hit_def>prohibitin [Phascolarctos cinereus]</Hit_def>
+  <Hit_accession>XP_020853319</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.495</Hsp_bit-score>
+      <Hsp_score>1386</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLFESVGKFGLGLAVVGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVANQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAFQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAK+FES+GKFGL LAV GGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVA+QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIA+QLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|XP_016286027.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: prohibitin [Monodelphis domestica]</Hit_def>
+  <Hit_accession>XP_016286027</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.11</Hsp_bit-score>
+      <Hsp_score>1385</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>265</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLFEAVGKFGLGLAVVGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVANQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAK+FE++GKFGL LAV GGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVA+QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gb|EHH24782.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_08501 [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH24782</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLSIIFRPVASQLPRILTRIGEDHDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITL I+FRPVASQLPRI T IGED+DERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|XP_038171329.1|</Hit_id>
+  <Hit_def>prohibitin-like [Arvicola amphibius]</Hit_def>
+  <Hit_accession>XP_038171329</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEVLKSVVAHFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSWNITYLQAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTE+LKSVVA FDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRS NITYL AGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|NXH39754.1|</Hit_id>
+  <Hit_def>PHB protein [Dicaeum eximium] &gt;gb|NXQ29187.1| PHB protein [Alaudala cheleensis]</Hit_def>
+  <Hit_accession>NXH39754</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gb|ELV11745.1|</Hit_id>
+  <Hit_def>Prohibitin [Tupaia chinensis]</Hit_def>
+  <Hit_accession>ELV11745</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQ--------QEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQPEADXXXXQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITSLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQ        QEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNIT LPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gb|NWT12717.1|</Hit_id>
+  <Hit_def>PHB protein [Vireo altiloquus] &gt;gb|NXA62493.1| PHB protein [Mohoua ochrocephala] &gt;gb|NXB36234.1| PHB protein [Eulacestoma nigropectus] &gt;gb|NXJ29209.1| PHB protein [Dicrurus megarhynchus]</Hit_def>
+  <Hit_accession>NWT12717</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.798</Hsp_bit-score>
+      <Hsp_score>1379</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|XP_004718072.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: prohibitin [Echinops telfairi]</Hit_def>
+  <Hit_accession>XP_004718072</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.798</Hsp_bit-score>
+      <Hsp_score>1379</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>265</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVTGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPILFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTXILKSVVARFDVGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLARSRNITYLPQGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAV GGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPI+FDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITT ILKSVVARFD GELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQL+RSRNITYLP GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|XP_028631924.1|</Hit_id>
+  <Hit_def>prohibitin-like isoform X1 [Grammomys surdaster]</Hit_def>
+  <Hit_accession>XP_028631924</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.413</Hsp_bit-score>
+      <Hsp_score>1378</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVGGEGTHFLIPWVQKPIIFDCHSRPWNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEDDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIV GEGTHFLIPWVQKPIIFDC SRP NVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAE DSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|XP_004664929.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin isoform X1 [Jaculus jaculus]</Hit_def>
+  <Hit_accession>XP_004664929</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.413</Hsp_bit-score>
+      <Hsp_score>1378</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCCSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDHDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIACQLSCSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDC SRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGED+DERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIA QLS SRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gb|EHB16468.1|</Hit_id>
+  <Hit_def>Prohibitin [Heterocephalus glaber]</Hit_def>
+  <Hit_accession>EHB16468</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.413</Hsp_bit-score>
+      <Hsp_score>1378</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGL---------------ILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLIPPAAPAPILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATSGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGL               ILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLAT+GDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|XP_003213108.2|</Hit_id>
+  <Hit_def>prohibitin [Meleagris gallopavo] &gt;ref|XP_010722862.1| prohibitin [Meleagris gallopavo] &gt;ref|XP_015741089.1| prohibitin [Coturnix japonica] &gt;ref|XP_015741090.1| prohibitin [Coturnix japonica] &gt;ref|XP_021233760.1| prohibitin [Numida meleagris] &gt;ref|XP_021233762.1| prohibitin [Numida meleagris] &gt;ref|XP_021233763.1| prohibitin [Numida meleagris] &gt;ref|XP_031456671.1| prohibitin [Phasianus colchicus] &gt;ref|XP_031456672.1| prohibitin [Phasianus colchicus] &gt;ref|XP_031456673.1| prohibitin [Phasianus colchicus] &gt;sp|P84173.1| RecName: Full=Prohibitin [Gallus gallus] &gt;gb|NXC48802.1| PHB protein [Penelope pileata] &gt;gb|NXJ04262.1| PHB protein [Odontophorus gujanensis] &gt;gb|OXB63593.1| hypothetical protein ASZ78_008908 [Callipepla squamata] &gt;gb|OXB71986.1| hypothetical protein H355_003250 [Colinus virginianus]</Hit_def>
+  <Hit_accession>XP_003213108</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.028</Hsp_bit-score>
+      <Hsp_score>1377</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDTVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gb|NXL89515.1|</Hit_id>
+  <Hit_def>PHB protein [Alectura lathami]</Hit_def>
+  <Hit_accession>NXL89515</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.028</Hsp_bit-score>
+      <Hsp_score>1377</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLGLAVAGGIVNSALYNVDAGHRAVIFDRFRGVQDTVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGL LAVAGG+VNSALYNVDAGHRAVIFDRFRGVQD VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|XP_017735445.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin-like [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_017735445</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.643</Hsp_bit-score>
+      <Hsp_score>1376</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLLRIFTSIGEDYNERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKSAIISAEGDSKAAELIANSLATAGDGLIELRKLEPTEDIAYQLSHSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQL RIFTSIGEDY+ERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKK+AIISAEGDSKAAELIANSLATAGDGLIELRKLE  EDIAYQLS SRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|XP_005532524.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Pseudopodoces humilis] &gt;ref|XP_014116471.1| PREDICTED: prohibitin [Pseudopodoces humilis] &gt;ref|XP_014744954.1| PREDICTED: prohibitin [Sturnus vulgaris] &gt;ref|XP_015471287.1| prohibitin [Parus major] &gt;ref|XP_030822244.1| prohibitin [Camarhynchus parvulus] &gt;ref|XP_032935112.1| prohibitin isoform X2 [Catharus ustulatus] &gt;ref|XP_036254857.1| prohibitin [Molothrus ater] &gt;gb|KAG0115460.1| hypothetical protein IHE44_005939 [Lamprotornis superbus] &gt;gb|NWH96697.1| PHB protein [Tichodroma muraria] &gt;gb|NWI40299.1| PHB protein [Picathartes gymnocephalus] &gt;gb|NWQ57592.1| PHB protein [Melospiza melodia] &gt;gb|NWR39909.1| PHB protein [Tachuris rubrigastra] &gt;gb|NWS83065.1| PHB protein [Toxostoma redivivum] &gt;gb|NWY98736.1| PHB protein [Loxia curvirostra] &gt;gb|NWZ86851.1| PHB protein [Poecile atricapillus] &gt;gb|NXB03520.1| PHB protein [Cnemophilus loriae] &gt;gb|NXB43260.1| PHB protein [Leucopsar rothschildi] &gt;gb|NXB71792.1| PHB protein [Donacobius atricapilla] &gt;gb|NXB94295.1| PHB protein [Vidua chalybeata] &gt;gb|NXH01439.1| PHB protein [Loxia leucoptera] &gt;gb|NXI33575.1| PHB protein [Sterrhoptilus dennistouni] &gt;gb|NXL26141.1| PHB protein [Setophaga kirtlandii] &gt;gb|NXL78885.1| PHB protein [Leptocoma aspasia] &gt;gb|NXM75507.1| PHB protein [Serilophus lunatus] &gt;gb|NXM99877.1| PHB protein [Sylvia borin] &gt;gb|NXO61216.1| PHB protein [Phainopepla nitens] &gt;gb|NXP64838.1| PHB protein [Chloropsis cyanopogon] &gt;gb|NXR25035.1| PHB protein [Cinclus mexicanus] &gt;gb|NXR85780.1| PHB protein [Hypocryptadius cinnamomeus] &gt;gb|NXV04753.1| PHB protein [Cettia cetti] &gt;gb|NXW70282.1| PHB protein [Hirundo rustica] &gt;gb|NXY63096.1| PHB protein [Callaeas wilsoni] &gt;gb|RMB94793.1| hypothetical protein DUI87_28772 [Hirundo rustica rustica] &gt;gb|TRZ09199.1| hypothetical protein HGM15179_017915 [Zosterops borbonicus]</Hit_def>
+  <Hit_accession>XP_005532524</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.643</Hsp_bit-score>
+      <Hsp_score>1376</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gb|NXA42208.1|</Hit_id>
+  <Hit_def>PHB protein [Eudromia elegans]</Hit_def>
+  <Hit_accession>NXA42208</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.258</Hsp_bit-score>
+      <Hsp_score>1375</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLGLAVVGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNVTYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGL LAV GGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRN+TYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|XP_038019340.1|</Hit_id>
+  <Hit_def>prohibitin isoform X1 [Motacilla alba alba]</Hit_def>
+  <Hit_accession>XP_038019340</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.258</Hsp_bit-score>
+      <Hsp_score>1375</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|XP_032935110.1|</Hit_id>
+  <Hit_def>prohibitin isoform X1 [Catharus ustulatus] &gt;ref|XP_032935111.1| prohibitin isoform X1 [Catharus ustulatus]</Hit_def>
+  <Hit_accession>XP_032935110</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.258</Hsp_bit-score>
+      <Hsp_score>1375</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|XP_013811991.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Apteryx mantelli mantelli] &gt;ref|XP_025927601.1| prohibitin [Apteryx rowi] &gt;ref|XP_025927603.1| prohibitin [Apteryx rowi]</Hit_def>
+  <Hit_accession>XP_013811991</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.258</Hsp_bit-score>
+      <Hsp_score>1375</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDTVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNVTYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRN+TYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gb|NWI98977.1|</Hit_id>
+  <Hit_def>PHB protein [Crypturellus undulatus] &gt;gb|NXA55469.1| PHB protein [Nothocercus julius] &gt;gb|NXD17299.1| PHB protein [Nothocercus nigrocapillus]</Hit_def>
+  <Hit_accession>NWI98977</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.872</Hsp_bit-score>
+      <Hsp_score>1374</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLGLAVVGGVVNSALYNVDAGHRAVIFDRFRGVQDMVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNVTYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGL LAV GGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRN+TYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|XP_027552877.1|</Hit_id>
+  <Hit_def>prohibitin [Neopelma chrysocephalum] &gt;ref|XP_027552878.1| prohibitin [Neopelma chrysocephalum] &gt;ref|XP_027593424.1| prohibitin [Pipra filicauda] &gt;ref|XP_027593425.1| prohibitin [Pipra filicauda] &gt;ref|XP_027763140.1| prohibitin [Empidonax traillii] &gt;ref|XP_031990203.1| prohibitin [Corvus moneduloides] &gt;ref|XP_032566982.1| prohibitin [Chiroxiphia lanceolata] &gt;gb|NWI76727.1| PHB protein [Dryoscopus gambensis] &gt;gb|NWQ68391.1| PHB protein [Neopipo cinnamomea] &gt;gb|NWR90568.1| PHB protein [Furnarius figulus] &gt;gb|NWS21320.1| PHB protein [Pachyramphus minor] &gt;gb|NWT78300.1| PHB protein [Lanius ludovicianus] &gt;gb|NWU87689.1| PHB protein [Onychorhynchus coronatus] &gt;gb|NWV15804.1| PHB protein [Ptilonorhynchus violaceus] &gt;gb|NWV38536.1| PHB protein [Grantiella picta] &gt;gb|NWV73547.1| PHB protein [Dasyornis broadbenti] &gt;gb|NWV88976.1| PHB protein [Machaerirhynchus nigripectus] &gt;gb|NWW07554.1| PHB protein [Oreocharis arfaki] &gt;gb|NWW24067.1| PHB protein [Falcunculus frontatus] &gt;gb|NWW65545.1| PHB protein [Ifrita kowaldi] &gt;gb|NXA07251.1| PHB protein [Sapayoa aenigma] &gt;gb|NXB66448.1| PHB protein [Struthidea cinerea] &gt;gb|NXC04610.1| PHB protein [Orthonyx spaldingii] &gt;gb|NXC23741.1| PHB protein [Campylorhamphus procurvoides] &gt;gb|NXE01955.1| PHB protein [Chaetorhynchus papuensis] &gt;gb|NXE98551.1| PHB protein [Menura novaehollandiae] &gt;gb|NXF72708.1| PHB protein [Sclerurus mexicanus] &gt;gb|NXG22199.1| PHB protein [Grallaria varia] &gt;gb|NXK42331.1| PHB protein [Piprites chloris] &gt;gb|NXM27398.1| PHB protein [Oxyruncus cristatus] &gt;gb|NXY17322.1| PHB protein [Atrichornis clamosus]</Hit_def>
+  <Hit_accession>XP_027552877</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.872</Hsp_bit-score>
+      <Hsp_score>1374</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gb|NWI14100.1|</Hit_id>
+  <Hit_def>PHB protein [Crypturellus soui]</Hit_def>
+  <Hit_accession>NWI14100</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.872</Hsp_bit-score>
+      <Hsp_score>1374</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLGLAVVGGVVNSALYNVDAGHRAVIFDRFRGVQDMVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNVTYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGL LAV GGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRN+TYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|XP_005026195.1|</Hit_id>
+  <Hit_def>prohibitin [Anas platyrhynchos] &gt;ref|XP_013055703.1| PREDICTED: prohibitin [Anser cygnoides domesticus] &gt;ref|XP_013055704.1| PREDICTED: prohibitin [Anser cygnoides domesticus] &gt;ref|XP_027301386.1| prohibitin [Anas platyrhynchos] &gt;ref|XP_035203801.1| prohibitin [Oxyura jamaicensis] &gt;ref|XP_035203802.1| prohibitin [Oxyura jamaicensis] &gt;gb|NWZ25771.1| PHB protein [Asarcornis scutulata] &gt;gb|NXI74276.1| PHB protein [Anseranas semipalmata] &gt;gb|NXT91282.1| PHB protein [Anhinga rufa]</Hit_def>
+  <Hit_accession>XP_005026195</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.872</Hsp_bit-score>
+      <Hsp_score>1374</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESLGKFGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDTVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFES+GKFGL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|XP_005911726.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: prohibitin [Bos mutus]</Hit_def>
+  <Hit_accession>XP_005911726</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.872</Hsp_bit-score>
+      <Hsp_score>1374</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFGGVQDIVIGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQAAXRARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDSLIELRKLEAAEDIAYQLSRSPNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRF GVQDIV+GEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQ A RARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGD LIELRKLEAAEDIAYQLSRS NITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gb|NXG02209.1|</Hit_id>
+  <Hit_def>PHB protein [Sakesphorus luctuosus]</Hit_def>
+  <Hit_accession>NXG02209</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.487</Hsp_bit-score>
+      <Hsp_score>1373</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLGLAIAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GL LA+AGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|XP_025962713.1|</Hit_id>
+  <Hit_def>prohibitin [Dromaius novaehollandiae] &gt;ref|XP_025962714.1| prohibitin [Dromaius novaehollandiae] &gt;gb|NXG38462.1| PHB protein [Dromaius novaehollandiae]</Hit_def>
+  <Hit_accession>XP_025962713</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.487</Hsp_bit-score>
+      <Hsp_score>1373</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESLGKFGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDTVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNVTYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFES+GKFGL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRN+TYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gb|EOA96612.1|</Hit_id>
+  <Hit_def>Prohibitin, partial [Anas platyrhynchos]</Hit_def>
+  <Hit_accession>EOA96612</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.487</Hsp_bit-score>
+      <Hsp_score>1373</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESLGKFGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDTVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFES+GKFGL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|XP_035578293.1|</Hit_id>
+  <Hit_def>prohibitin-like [Zalophus californianus]</Hit_def>
+  <Hit_accession>XP_035578293</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.487</Hsp_bit-score>
+      <Hsp_score>1373</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHLLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVSITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILQSVVARFDAGELISQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLAAVGDGLVELRKLEAAEDIAHQLSRSRNITYLPAGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTH LIPWVQKPIIFDCRSRPRNVPVITGSKDLQNV+ITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEIL+SVVARFDAGELI+QRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLA  GDGL+ELRKLEAAEDIA+QLSRSRNITYLPAGQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gb|NXI17783.1|</Hit_id>
+  <Hit_def>PHB protein [Irena cyanogastra]</Hit_def>
+  <Hit_accession>NXI17783</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.487</Hsp_bit-score>
+      <Hsp_score>1373</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLVPWVQKPIIFDCRSRPRNVPVVTGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFL+PWVQKPIIFDCRSRPRNVPV+TGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|XP_009673589.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin [Struthio camelus australis]</Hit_def>
+  <Hit_accession>XP_009673589</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.102</Hsp_bit-score>
+      <Hsp_score>1372</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLFESIGKFGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDTVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNVTYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAK+FESIGKFGL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRN+TYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>gb|NXT66490.1|</Hit_id>
+  <Hit_def>PHB protein [Chaetops frenatus]</Hit_def>
+  <Hit_accession>NXT66490</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.102</Hsp_bit-score>
+      <Hsp_score>1372</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLFESIGKLGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAK+FESIGK GL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|XP_010204991.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin isoform X1 [Colius striatus] &gt;gb|NWU69188.1| PHB protein [Pterocles burchelli] &gt;gb|NWX09664.1| PHB protein [Caloenas nicobarica] &gt;gb|NXQ86465.1| PHB protein [Nyctibius grandis] &gt;gb|NXS98555.1| PHB protein [Jacana jacana] &gt;gb|NXT19005.1| PHB protein [Syrrhaptes paradoxus] &gt;gb|NXW82206.1| PHB protein [Alopecoenas beccarii] &gt;gb|NXX23369.1| PHB protein [Podargus strigoides]</Hit_def>
+  <Hit_accession>XP_010204991</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.717</Hsp_bit-score>
+      <Hsp_score>1371</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESLGKLGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFES+GK GL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|XP_037061161.1|</Hit_id>
+  <Hit_def>prohibitin-like [Peromyscus leucopus]</Hit_def>
+  <Hit_accession>XP_037061161</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.717</Hsp_bit-score>
+      <Hsp_score>1371</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSQPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIYTSIGEDYDNRVLPSITTEILKSVVARFDAGELITQREVVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFMVEKAEQQKRATIISAEGDSKAAALIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNVTYLPSGHSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRS+PRNVPVITGSKDLQNVNITLRILFRPVASQLPRI+TSIGEDYD RVLPSITTEILKSVVARFDAGELITQRE+VSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARF+VEKAEQQK+A IISAEGDSKAA LIANSLATAGDGLIELRKLEAAEDIAYQLSRSRN+TYLP+G SVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gb|NXH56300.1|</Hit_id>
+  <Hit_def>PHB protein [Rhabdornis inornatus]</Hit_def>
+  <Hit_accession>NXH56300</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.717</Hsp_bit-score>
+      <Hsp_score>1371</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLARSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQL+RSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|XP_009479587.1|</Hit_id>
+  <Hit_def>PREDICTED: prohibitin isoform X1 [Pelecanus crispus] &gt;ref|XP_009642685.1| prohibitin [Egretta garzetta] &gt;ref|XP_009914053.1| PREDICTED: prohibitin [Haliaeetus albicilla] &gt;ref|XP_010583779.1| PREDICTED: prohibitin [Haliaeetus leucocephalus] &gt;gb|NWR60997.1| PHB protein [Bucorvus abyssinicus] &gt;gb|NXE83105.1| PHB protein [Cochlearius cochlearius] &gt;gb|NXI40438.1| PHB protein [Galbula dea] &gt;gb|NXJ98513.1| PHB protein [Corythaixoides concolor] &gt;gb|NXS45153.1| PHB protein [Balaeniceps rex] &gt;gb|NXX52861.1| PHB protein [Scopus umbretta]</Hit_def>
+  <Hit_accession>XP_009479587</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.717</Hsp_bit-score>
+      <Hsp_score>1371</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDTVVGEGTHFLIPWVQKPIIFDCRSRPRNIPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD VVGEGTHFLIPWVQKPIIFDCRSRPRN+PVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gb|NWZ95466.1|</Hit_id>
+  <Hit_def>PHB protein [Nesospiza acunhae]</Hit_def>
+  <Hit_accession>NWZ95466</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.717</Hsp_bit-score>
+      <Hsp_score>1371</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLGLAVVGGVVNSALYNVDAGHRAVIFDRFRGVQDVVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GL LAV GGVVNSALYNVDAGHRAVIFDRFRGVQD+VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|XP_030111752.1|</Hit_id>
+  <Hit_def>prohibitin isoform X1 [Taeniopygia guttata] &gt;ref|XP_030111753.1| prohibitin isoform X1 [Taeniopygia guttata]</Hit_def>
+  <Hit_accession>XP_030111752</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.332</Hsp_bit-score>
+      <Hsp_score>1370</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MAAKVFESIGKFGLALAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDIVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVASQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSDDLTERAATFGLILDDVSLTHLTFGKEFTEAVEAKQVAQQEAERARFVVEKAEQQKKAAIISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPAGQSVLLQLPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKVFESIGKLGLGLAVAGGVVNSALYNVDAGHRAVIFDRFRGVQDAVVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPVTAQLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVSEDLTERAATFGLILDDVSLTHLTFGKEFTEAVEMKQVAQQEAERARFIVEKAEQQKKAAVISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLPSGQSVLLQLPQ</Hsp_hseq>
+      <Hsp_midline>MAAKVFESIGK GL LAVAGGVVNSALYNVDAGHRAVIFDRFRGVQD VVGEGTHFLIPWVQKPIIFDCRSRPRNVPVITGSKDLQNVNITLRILFRPV +QLPRIFTSIGEDYDERVLPSITTEILKSVVARFDAGELITQRELVSRQVS+DLTERAATFGLILDDVSLTHLTFGKEFTEAVE KQVAQQEAERARF+VEKAEQQKKAA+ISAEGDSKAAELIANSLATAGDGLIELRKLEAAEDIAYQLSRSRNITYLP+GQSVLLQLPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>337713026</Statistics_db-num>
+      <Statistics_db-len>122655078136</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
