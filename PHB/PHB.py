@@ -54,7 +54,7 @@ for feat in phbgb.features:
 #BLAST de nucleotidos, usando a base de dados nt
 blast = NCBIWWW.qblast("blastn", "nt", phbfa.format("fasta"))
 
-save_file = open("my_blast_phb.xml","w")
+save_file = open("my_blast_PHB.xml","w")
 save_file.write(blast.read())
 save_file.close()
 blast.close()
