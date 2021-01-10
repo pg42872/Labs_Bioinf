@@ -42,10 +42,16 @@ taxonomia
 for feat in orf1agb.features:
     print(feat)
 
+#Origem 
+for feat in orf1agb.features:
+    if feat.type == "source":
+        print(feat)
+        
 #Encontrar o gene que codifica a nsp2
 for feat in orf1agb.features:
-    if feat.qualifiers["product"] == "nsp2":
-        print(feat)
+    if feat.type == "mat_peptide":
+        if feat.qualifiers["product"] == ["nsp2"]:
+            print(feat)
         
 #BLAST de nucleotidos, usando a base de dados nt
 blast = NCBIWWW.qblast("blastn", "nt", orf1afa.format("fasta"))
@@ -56,7 +62,7 @@ save_file.close()
 blast.close()
 
 #Leitura dos resultados do BLASTn
-result = open("my_blast_orf1a.xml")
+result = open("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/ORF1a/my_blast_orf1a.xml")
 blast_records = NCBIXML.parse(result)
 blast_records
 

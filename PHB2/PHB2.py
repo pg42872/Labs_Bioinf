@@ -64,7 +64,7 @@ blast.close()
 
 #leitura dos resultados obtidos do BLASTn
 result = open("my_blast_phb.xml")
-blast_records = NCBIXML.read(result)
+blast_records = NCBIXML.parse(result)
 blast_records
 
 E_VALUE_THRESH = 0.05
