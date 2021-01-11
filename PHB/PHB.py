@@ -59,8 +59,8 @@ save_file.write(blast.read())
 save_file.close()
 blast.close()
 
-#leitura dos resultados obtidos do BLASTn
-result = open("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/PHB/my_blast_PHB.xml")
+#leitura dos resultados obtidos do BLASTn (ficheiro obtido pelo BLAST na web)
+result = open("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/PHB/PHB_alignment.xml")
 blast_records = NCBIXML.parse(result)
 blast_records
 

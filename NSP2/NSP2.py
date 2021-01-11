@@ -46,8 +46,25 @@ save_file.write(blast.read())
 save_file.close()
 blast.close()
 
-#Leitura dos resultados do BLASTp
-result = open("my_blast_nsp2.xml")
+#Leitura dos resultados do BLASTp (ficheiro obtido pelo BLAST na web, bd = SwissProt)
+result = open("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/NSP2/NSP2_alignment_SWISS.xml")
+blast_records = NCBIXML.parse(result)
+blast_records
+
+E_VALUE_THRESH = 0.05
+for blast_record in blast_records:
+    for alignment in blast_record.alignments:
+        for hsp in alignment.hsps:
+                if hsp.expect < E_VALUE_THRESH:
+                    print ('****Alignment****')
+                    print ('sequence:', alignment.title)
+                    print ('length:', alignment.length)
+                    print ('e value:', hsp.expect)
+                    
+result.close()
+
+#Leitura dos resultados do BLASTp (ficheiro obtido pelo BLAST na web, bd = nr)
+result = open("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/NSP2/NSP2_alignment_nr.xml")
 blast_records = NCBIXML.parse(result)
 blast_records
 
