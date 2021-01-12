@@ -11,6 +11,11 @@ from urllib.request import urlopen
 pro2 = SeqIO.read(open("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/Proibitina-2/sequence.fasta"),"fasta")
 pro2
 
+my_seq = Seq("MAQNLKDLAGRLPAGPRGMGTALKLLLGAGAVAYGVRESVFTVEGGHRAIFFNRIGGVQQDTILAEGLHFRIPWFQYPIIYDIRARPRKISSPTGSKDLQMVNISLRVLSRPNAQELPSMYQRLGLDYEERVLPSIVNEVLKSVVAKFNASQLITQRAQVSLLIRRELTERAKDFSLILDDVAITELSFSREYTAAVEAKQVAQQEAQRAQFLVEKAKQEQRQKIVQAEGEAEAAKMLGEALSKNPGYIKLRKIRAAQNISKTIATSQNRIYLTADNLVLNLQDESFTRGSDSLIKGKK")
+my_seq
+tamanho = len(my_seq)
+tamanho
+
 #Abrir ficheiro SwissProt localmente FASTA
 ficheiro = SeqIO.read(open("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/Proibitina-2/uniprot-yourlist_M20210105A94466D2655679D1FD8953E075198DA82BA1F57.fasta"),"fasta")
 ficheiro 
