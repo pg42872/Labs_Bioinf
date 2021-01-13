@@ -51,6 +51,11 @@ for feat in phbgb.features:
     if feat.type == "source" or feat.type == "gene" or feat.type == "CDS":
         print(feat)
 
+for feat in phbgb.features:
+    if feat.type == "CDS":
+        if feat.qualifiers["product"] == ["prohibitin isoform 1"]:
+            print(feat)
+            
 #BLAST de nucleotidos, usando a base de dados nt
 blast = NCBIWWW.qblast("blastn", "nt", phbfa.format("fasta"))
 
