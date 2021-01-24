@@ -79,3 +79,4 @@ for blast_record in blast_records:
                     print ('e value:', hsp.expect)
                     
 result.close()
+
