@@ -3,6 +3,10 @@ from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from Bio.Blast import NCBIWWW, NCBIXML
 from Bio import Entrez
+from Bio.Align.Applications import ClustalwCommandline, MuscleCommandline
+from Bio import AlignIO
+from Bio import Phylo
+
 
 #PHB
 #Aceder ao NCBI e importar o ficheiro do gene no formato GenBank

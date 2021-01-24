@@ -4,6 +4,10 @@ from Bio.SeqRecord import SeqRecord
 from Bio.Blast import NCBIWWW, NCBIXML
 from Bio import SwissProt
 from urllib.request import urlopen
+from Bio.Align.Applications import ClustalwCommandline, MuscleCommandline
+from Bio import AlignIO
+from Bio import Phylo
+
 
 #Proibitina-2
 #Ficheiro NCBI local
