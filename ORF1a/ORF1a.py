@@ -94,12 +94,12 @@ cline = MuscleCommandline(input="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioi
 print(cline)
 
 #Leitura de ficheiro do alinhamento multiplo
-alignment = AlignIO.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/ORF1a/ORF.fasta", "fasta")
+alignment = AlignIO.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/ORF1a/ORF1alinhados.fasta", "fasta")
 print(alignment)
 
 
 #Leitura do ficheiro da arvore filogenética
-arvore = Phylo.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/ORF1a/ORF_MA.dnd", "newick")
+arvore = Phylo.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/ORF1a/ORF1arvore.dnd", "newick")
 print(arvore)
 
 Phylo.draw_ascii(arvore)
