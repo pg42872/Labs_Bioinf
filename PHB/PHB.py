@@ -87,18 +87,18 @@ result.close()
 
 #Alinhamento multiplo e arvore filogenética
 help(ClustalwCommandline)
-cline = ClustalwCommandline("clustalw2", infile="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/PHB/PHB_MA.fasta")
+cline = ClustalwCommandline("clustalw2", infile="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/PHB/PHB_MA.fasta")
 print(cline)
 
-cline = MuscleCommandline(input="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/PHB/PHB_MA.fasta", out="PHB_MA.aln", clw=True)
+cline = MuscleCommandline(input="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/PHB/PHB_MA.fasta", out="PHB_MA.aln", clw=True)
 print(cline)
 
 #Leitura de ficheiro do alinhamento multiplo
-alignment = AlignIO.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/PHB/PHB.fasta", "fasta")
+alignment = AlignIO.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/PHB/PHB_ALinhamentoM.fasta", "fasta")
 print(alignment)
 
 #Leitura do ficheiro da arvore filogenética
-arvore = Phylo.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/PHB/PHB.dnd", "newick")
+arvore = Phylo.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/PHB/PHB.dnd", "newick")
 print(arvore)
 
 Phylo.draw_ascii(arvore)
