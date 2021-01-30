@@ -90,3 +90,21 @@ for blast_record in blast_records:
                     print ('e value:', hsp.expect)
                     
 result.close()
+
+#Alinhamento multiplo e arvore filogenética
+help(ClustalwCommandline)
+cline = ClustalwCommandline("clustalw2", infile="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/PHB2/PHB2_MA.fasta")
+print(cline)
+
+cline = MuscleCommandline(input="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/PHB2/PHB2_MA.fasta", out="ORF_MA.aln", clw=True)
+print(cline)
+
+#Leitura de ficheiro do alinhamento multiplo
+alignment = AlignIO.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/PHB2/PHB2.fasta", "fasta")
+print(alignment)
+
+#Leitura do ficheiro da arvore filogenética
+arvore = Phylo.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/PHB2/PHB.dnd", "newick")
+print(arvore)
+
+Phylo.draw_ascii(arvore)
