@@ -8,9 +8,6 @@ from Bio.SwissProt import KeyWList
 from Bio.Align.Applications import ClustalwCommandline, MuscleCommandline
 from Bio import AlignIO
 from Bio import Phylo
-from Bio.Align.Applications import ClustalwCommandline, MuscleCommandline
-from Bio import AlignIO
-from Bio import Phylo
 
 #Proibitina
 #Ficheiro NCBI local
@@ -88,19 +85,19 @@ result.close()
 
 #Alinhamento multiplo e arvore filogenética
 help(ClustalwCommandline)
-cline = ClustalwCommandline("clustalw2", infile="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/ORF1a/ORF_MA.fasta")
+cline = ClustalwCommandline("clustalw2", infile="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/Proibitina/Probitina_MA.fasta")
 print(cline)
 
-cline = MuscleCommandline(input="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/ORF1a/ORF_MA.fasta", out="ORF_MA.aln", clw=True)
+cline = MuscleCommandline(input="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/Proibitina/Proibitina_MA.fasta", out="Proibitina_MA.aln", clw=True)
 print(cline)
 
 #Leitura de ficheiro do alinhamento multiplo
-alignment = AlignIO.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/ORF1a/ORF1alinhados.fasta", "fasta")
+alignment = AlignIO.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/Proibitina/Proibitinalinhados.fasta", "fasta")
 print(alignment)
 
 
 #Leitura do ficheiro da arvore filogenética
-arvore = Phylo.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/ORF1a/ORF1arvore.dnd", "newick")
+arvore = Phylo.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/Proibitina/Proibitinarvore.dnd", "newick")
 print(arvore)
 
 Phylo.draw_ascii(arvore)
