@@ -4,6 +4,9 @@ from Bio.SeqRecord import SeqRecord
 from Bio.Blast import NCBIWWW, NCBIXML
 from Bio import SwissProt
 from urllib.request import urlopen
+from Bio.Align.Applications import ClustalwCommandline, MuscleCommandline
+from Bio import AlignIO
+from Bio import Phylo
 
 #NSP2
 
@@ -80,3 +83,21 @@ for blast_record in blast_records:
                     
 result.close()
 
+#Alinhamento multiplo e arvore filogenética
+help(ClustalwCommandline)
+cline = ClustalwCommandline("clustalw2", infile="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/NSP2/NSP2_MA.fasta")
+print(cline)
+
+cline = MuscleCommandline(input="C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/NSP2/NSP2_MA.fasta", out="NSP2align.aln", clw=True)
+print(cline)
+
+#Leitura de ficheiro do alinhamento multiplo
+alignment = AlignIO.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/NSP2/NSP2alinhados.fasta", "fasta")
+print(alignment)
+
+
+#Leitura do ficheiro da arvore filogenética
+arvore = Phylo.read("C:/Users/Zé Freitas/Desktop/Mestrado/Labs_Bioinf/Trabalho prático/scripts/Labs_Bioinf/NSP2/NSP2arvore.dnd", "newick")
+print(arvore)
+
+Phylo.draw_ascii(arvore)
